@@ -9,8 +9,8 @@
     "node": ">=11.0.0"
   },
   "scripts": {
-    "eslint": "cross-env NODE_ENV=production eslint --cache **/*.{js,jsx,ts,tsx}",
-    "stylelint": "cross-env NODE_ENV=production stylelint --cache **/*.{css,less}",
+    "eslint": "cross-env NODE_ENV=production eslint --cache **/*.{js,jsx,ts,tsx,vue}",
+    "stylelint": "cross-env NODE_ENV=production stylelint --cache **/*.{css,less,vue}",
     "lint":"yarn eslint && yarn stylelint"
   },
   "husky": {
@@ -25,11 +25,11 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "cross-env NODE_ENV=production eslint --cache",
-    "*.{css,less}": "cross-env NODE_ENV=production stylelint --cache"
+    "*.{js,jsx,ts,tsx,vue}": "cross-env NODE_ENV=production eslint --cache",
+    "*.{css,less,vue}": "cross-env NODE_ENV=production stylelint --cache"
   },
   "devDependencies": {
-    "@clux/eslint-plugin-recommended": "~0.0.1",
+    "@clux/eslint-plugin-recommended": "~0.0.7",
     "@clux/stylelint-config-recommended": "~0.0.1",
     "eslint": "~7.25.0",
     "prettier": "~2.2.0",
@@ -40,6 +40,7 @@
     "commitizen": "~4.2.3",
     "husky": "~4.3.8",
     "lint-staged": "~10.5.4",
+    "react": "~17.0.1",
     "typescript": "~4.2.0"
   }
 }

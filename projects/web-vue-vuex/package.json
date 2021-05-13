@@ -34,13 +34,13 @@
     "@types/express": "~4.17.9"
   },
   "dependencies": {
-    "@clux/react-web": "~0.0.9",
+    "@clux/react-web": "~0.0.8",
     "react": "~17.0.1",
     "react-dom": "~17.0.1",
     "react-redux": "~7.2.4"
   },
   "devDependencies": {
-    "@clux/dev-pkg": "~0.0.3",
+    "@clux/dev-pkg": "~0.0.2",
     "@clux/dev-utils": "~0.0.3",
     "@clux/dev-webpack": "~0.0.1",
     "@types/express": "~4.17.9",

@@ -1,322 +1,322 @@
 {
   "program": {
     "fileInfos": {
-      "../../node_modules/typescript/lib/lib.es5.d.ts": {
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
         "version": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
         "signature": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
         "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
         "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
         "affectsGlobalScope": false
       },
-      "../../node_modules/typescript/lib/lib.es2016.d.ts": {
+      "../node_modules/typescript/lib/lib.es2016.d.ts": {
         "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
         "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
         "affectsGlobalScope": false
       },
-      "../../node_modules/typescript/lib/lib.es2017.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.d.ts": {
         "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
         "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
         "affectsGlobalScope": false
       },
-      "../../node_modules/typescript/lib/lib.es2018.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.d.ts": {
         "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
         "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
         "affectsGlobalScope": false
       },
-      "../../node_modules/typescript/lib/lib.dom.d.ts": {
+      "../node_modules/typescript/lib/lib.dom.d.ts": {
         "version": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
         "signature": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
         "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
         "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
         "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
         "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
         "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
         "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
         "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
         "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
         "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
         "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
         "version": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
         "signature": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
         "version": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
         "signature": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
         "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
         "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
         "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
         "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
         "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
         "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2017.object.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts": {
         "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
         "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
         "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
         "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2017.string.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts": {
         "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
         "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
         "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
         "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
         "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
         "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
         "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
         "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
         "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
         "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts": {
         "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
         "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts": {
         "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
         "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
         "affectsGlobalScope": true
       },
-      "../../node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
         "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
         "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
         "affectsGlobalScope": true
       },
-      "../../node_modules/@clux/react-web/env/global.d.ts": {
+      "../node_modules/@clux/react-web/env/global.d.ts": {
         "version": "4758cea2e04c4aa5008a0d2fce69cca29799764839f9fee96346618c87adc07c",
         "signature": "4758cea2e04c4aa5008a0d2fce69cca29799764839f9fee96346618c87adc07c",
         "affectsGlobalScope": true
       },
-      "../../node_modules/@clux/react-web/types/env.d.ts": {
+      "../node_modules/@clux/react-web/types/env.d.ts": {
         "version": "a3d55e3d9a7159d948eb98c1c85b510bb0e86b5b88379c9fc75c061787a68f16",
         "signature": "a3d55e3d9a7159d948eb98c1c85b510bb0e86b5b88379c9fc75c061787a68f16",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/react/global.d.ts": {
+      "../node_modules/@types/react/global.d.ts": {
         "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
         "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
         "affectsGlobalScope": true
       },
-      "../../node_modules/csstype/index.d.ts": {
+      "../node_modules/csstype/index.d.ts": {
         "version": "4ee363f83d7be2202f34fcd84c44da71bf3a9329fee8a05f976f75083a52ea94",
         "signature": "4ee363f83d7be2202f34fcd84c44da71bf3a9329fee8a05f976f75083a52ea94",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/prop-types/index.d.ts": {
+      "../node_modules/@types/prop-types/index.d.ts": {
         "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
         "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/react/index.d.ts": {
+      "../node_modules/@types/react/index.d.ts": {
         "version": "416e5d547a57e2fc9bac063ff167eee2c34aad14296acf9688eaa24fee981e05",
         "signature": "416e5d547a57e2fc9bac063ff167eee2c34aad14296acf9688eaa24fee981e05",
         "affectsGlobalScope": true
       },
-      "../../node_modules/@clux/core/types/actions.d.ts": {
+      "../node_modules/@clux/core/types/actions.d.ts": {
         "version": "9755003a9e564ceffb35ac2f76efa982e99bd3b46b5723d0892db3b8fdfe3e6e",
         "signature": "9755003a9e564ceffb35ac2f76efa982e99bd3b46b5723d0892db3b8fdfe3e6e",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/core/types/sprite.d.ts": {
+      "../node_modules/@clux/core/types/sprite.d.ts": {
         "version": "c5f6280f5d1b58e00e0e6caa4dfb1092d93b3dab8a26737b366793ec8035ad11",
         "signature": "c5f6280f5d1b58e00e0e6caa4dfb1092d93b3dab8a26737b366793ec8035ad11",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/core/types/basic.d.ts": {
+      "../node_modules/@clux/core/types/basic.d.ts": {
         "version": "f447b068fd84ab0f1634292cb1a13885b6ce3378a7ea5d5b6e8727c124b8f2e1",
         "signature": "f447b068fd84ab0f1634292cb1a13885b6ce3378a7ea5d5b6e8727c124b8f2e1",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/core/types/store.d.ts": {
+      "../node_modules/@clux/core/types/store.d.ts": {
         "version": "8034f315011bb4de31d897bf697099730e530b62481587d7d6b42f7ec12d922c",
         "signature": "8034f315011bb4de31d897bf697099730e530b62481587d7d6b42f7ec12d922c",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/core/types/inject.d.ts": {
+      "../node_modules/@clux/core/types/inject.d.ts": {
         "version": "2da6e44fdee5ab507b3ca2e23d3d4eed0b457411665f177d45a768e3df496669",
         "signature": "2da6e44fdee5ab507b3ca2e23d3d4eed0b457411665f177d45a768e3df496669",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/core/types/render.d.ts": {
+      "../node_modules/@clux/core/types/render.d.ts": {
         "version": "43ff099ad99542950d383f73eaa3f52b464050c93b522338e9c45181433e2c90",
         "signature": "43ff099ad99542950d383f73eaa3f52b464050c93b522338e9c45181433e2c90",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/core/env/global.d.ts": {
+      "../node_modules/@clux/core/env/global.d.ts": {
         "version": "7aec4777ad24ed2c5d5df5f55955540adb9a3cffc879eccac5e1552259d804f7",
         "signature": "7aec4777ad24ed2c5d5df5f55955540adb9a3cffc879eccac5e1552259d804f7",
         "affectsGlobalScope": true
       },
-      "../../node_modules/@clux/core/types/env.d.ts": {
+      "../node_modules/@clux/core/types/env.d.ts": {
         "version": "c24175c6d9fe470462647631a71f68d1bf05cb42532b9f54bd2122e470feab3e",
         "signature": "c24175c6d9fe470462647631a71f68d1bf05cb42532b9f54bd2122e470feab3e",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/core/types/index.d.ts": {
+      "../node_modules/@clux/core/types/index.d.ts": {
         "version": "468d82190fdeb50c09e221b97aca48455661db71c3df5f08b0fb83be18a15dec",
         "signature": "468d82190fdeb50c09e221b97aca48455661db71c3df5f08b0fb83be18a15dec",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/route/types/basic.d.ts": {
+      "../node_modules/@clux/route/types/basic.d.ts": {
         "version": "8693bb34098c728cb3a416c9f85eb102de6c8d98322c7fbd20fb303413ff4bda",
         "signature": "8693bb34098c728cb3a416c9f85eb102de6c8d98322c7fbd20fb303413ff4bda",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/route/types/transform.d.ts": {
+      "../node_modules/@clux/route/types/transform.d.ts": {
         "version": "c607667cef8fd9a282ff2ae7e0448d7940ad1f07c8e4222496e8b49b2dd671fa",
         "signature": "c607667cef8fd9a282ff2ae7e0448d7940ad1f07c8e4222496e8b49b2dd671fa",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/route/types/module.d.ts": {
+      "../node_modules/@clux/route/types/module.d.ts": {
         "version": "ff3dec2e618db954e8feb5f76b4379ee6ff8405ab54c113dcb78e5971562ffb8",
         "signature": "ff3dec2e618db954e8feb5f76b4379ee6ff8405ab54c113dcb78e5971562ffb8",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/route/types/index.d.ts": {
+      "../node_modules/@clux/route/types/index.d.ts": {
         "version": "7d7e671838c97bc6c76ad58619115c45254d02a5d20471a82baf42b7022f0473",
         "signature": "7d7e671838c97bc6c76ad58619115c45254d02a5d20471a82baf42b7022f0473",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/history/domutils.d.ts": {
+      "../node_modules/@types/history/domutils.d.ts": {
         "version": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
         "signature": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
         "affectsGlobalScope": true
       },
-      "../../node_modules/@types/history/createbrowserhistory.d.ts": {
+      "../node_modules/@types/history/createbrowserhistory.d.ts": {
         "version": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
         "signature": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/history/createhashhistory.d.ts": {
+      "../node_modules/@types/history/createhashhistory.d.ts": {
         "version": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
         "signature": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/history/creatememoryhistory.d.ts": {
+      "../node_modules/@types/history/creatememoryhistory.d.ts": {
         "version": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
         "signature": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/history/locationutils.d.ts": {
+      "../node_modules/@types/history/locationutils.d.ts": {
         "version": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
         "signature": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/history/pathutils.d.ts": {
+      "../node_modules/@types/history/pathutils.d.ts": {
         "version": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
         "signature": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/history/index.d.ts": {
+      "../node_modules/@types/history/index.d.ts": {
         "version": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
         "signature": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/route-browser/types/index.d.ts": {
+      "../node_modules/@clux/route-browser/types/index.d.ts": {
         "version": "dd3ac4084b53a3ab4db5876da61756501326fc982b3c54f1a64f64b97da2b3ec",
         "signature": "dd3ac4084b53a3ab4db5876da61756501326fc982b3c54f1a64f64b97da2b3ec",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/react-web/types/loadview.d.ts": {
+      "../node_modules/@clux/react-web/types/loadview.d.ts": {
         "version": "e1662c8d6a7c74c575ef7ca53985d68d903487d202ec356a18d9c10e13044756",
         "signature": "e1662c8d6a7c74c575ef7ca53985d68d903487d202ec356a18d9c10e13044756",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/react-web/types/components/documenthead.d.ts": {
+      "../node_modules/@clux/react-web/types/components/documenthead.d.ts": {
         "version": "d310066d9a48fd55bbc6937c688a119e7522fc95f530f6677473dd563e4a1eb6",
         "signature": "d310066d9a48fd55bbc6937c688a119e7522fc95f530f6677473dd563e4a1eb6",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/react-web/types/components/else.d.ts": {
+      "../node_modules/@clux/react-web/types/components/else.d.ts": {
         "version": "292b59ef6b791ef53ce7143dd74c803186955fea1eaaf4b7a418350806392316",
         "signature": "292b59ef6b791ef53ce7143dd74c803186955fea1eaaf4b7a418350806392316",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/react-web/types/components/switch.d.ts": {
+      "../node_modules/@clux/react-web/types/components/switch.d.ts": {
         "version": "fe305f6dd34e329678ddaba293f53a69a7c4e733f6a09458559a97f18c4a24b5",
         "signature": "fe305f6dd34e329678ddaba293f53a69a7c4e733f6a09458559a97f18c4a24b5",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/react-web/types/components/link.d.ts": {
+      "../node_modules/@clux/react-web/types/components/link.d.ts": {
         "version": "3b422b040ae2b52d17b6c3ec78b55e2c1bcb18b79c4e498795b33c8671ebc28b",
         "signature": "3b422b040ae2b52d17b6c3ec78b55e2c1bcb18b79c4e498795b33c8671ebc28b",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/react-web/types/index.d.ts": {
+      "../node_modules/@clux/react-web/types/index.d.ts": {
         "version": "4411a3bbce3ccef2a9d6fd4f7ee787c76e12025f522244a71b8db022723642eb",
         "signature": "4411a3bbce3ccef2a9d6fd4f7ee787c76e12025f522244a71b8db022723642eb",
         "affectsGlobalScope": false
       },
-      "../../node_modules/redux/index.d.ts": {
+      "../node_modules/redux/index.d.ts": {
         "version": "d530250769a14518ebd6edda5b5f94abaaf3b9f612363c0da32082fa6acd0da8",
         "signature": "d530250769a14518ebd6edda5b5f94abaaf3b9f612363c0da32082fa6acd0da8",
         "affectsGlobalScope": true
       },
-      "../../node_modules/@types/hoist-non-react-statics/index.d.ts": {
+      "../node_modules/@types/hoist-non-react-statics/index.d.ts": {
         "version": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
         "signature": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/react-redux/index.d.ts": {
+      "../node_modules/@types/react-redux/index.d.ts": {
         "version": "89fb470ea4979b52a206816172c98f92141a95494b40ee2b8d75a901d0555ba7",
         "signature": "89fb470ea4979b52a206816172c98f92141a95494b40ee2b8d75a901d0555ba7",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/core/types/lib/with-redux.d.ts": {
-        "version": "7fa54745e5ff01d4d8a26bf9f260ce6f721be34b73e9557755e75163acdaeb7b",
-        "signature": "7fa54745e5ff01d4d8a26bf9f260ce6f721be34b73e9557755e75163acdaeb7b",
+      "../node_modules/@clux/core/types/lib/with-redux.d.ts": {
+        "version": "64c48fca38985c4b9eb0c08d6b240141ec83476539693f34e1187edccc19a88f",
+        "signature": "64c48fca38985c4b9eb0c08d6b240141ec83476539693f34e1187edccc19a88f",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts": {
+      "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts": {
         "version": "c0800c67f8420cc468324832b328ee0938f24729526bbd38f3e40381dc4be54a",
         "signature": "c0800c67f8420cc468324832b328ee0938f24729526bbd38f3e40381dc4be54a",
         "affectsGlobalScope": false
@@ -332,7 +332,7 @@
         "affectsGlobalScope": false
       },
       "./modules/stage/model.ts": {
-        "version": "7cdf4713bb1fdd3642da1b6d49a2fa92e4b4c7b58fa2f8aa4d1957f99bbd4312",
+        "version": "1dfceb88adc1af5f0a1e11fc654bd03e675e3115b108b055aeb982bada08e006",
         "signature": "99b26afc215916e8fe357f4efef25f914f72e75046af322550c4d342fea9f69f",
         "affectsGlobalScope": false
       },
@@ -376,7 +376,7 @@
         "signature": "e936f7246c3e0dca9da6c243460f9e182f989bdca848207485455c087ab22cf7",
         "affectsGlobalScope": false
       },
-      "../../node_modules/fast-deep-equal/index.d.ts": {
+      "../node_modules/fast-deep-equal/index.d.ts": {
         "version": "37ffe3c12813b6a6d512f7c27b71f3388d03dafa10555ad5094cea393ed3d1f6",
         "signature": "37ffe3c12813b6a6d512f7c27b71f3388d03dafa10555ad5094cea393ed3d1f6",
         "affectsGlobalScope": false
@@ -387,7 +387,7 @@
         "affectsGlobalScope": false
       },
       "./modules/photo/views/list/index.tsx": {
-        "version": "412a47547c42714588e7515e5cce6b1b15c000b26fde4649bcc4b7378bf8de19",
+        "version": "1ac154b2179959ab2dec1a156f71b66467e16e65dd9a2cc0971a6d4507a656ca",
         "signature": "c82c58520354f12c44971ef1c36ac41f0636086219310184d74adf45782dd589",
         "affectsGlobalScope": false
       },
@@ -473,183 +473,183 @@
           "./*"
         ]
       },
-      "pathsBasePath": "C:/my/clux-hub/demo-simple/web-react-redux/src",
+      "pathsBasePath": "C:/my/clux-hub/demo-simple/projects/web-react-redux/src",
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
-      "../../node_modules/@clux/core/types/basic.d.ts": [
-        "../../node_modules/@clux/core/types/sprite.d.ts"
+      "../node_modules/@clux/core/types/basic.d.ts": [
+        "../node_modules/@clux/core/types/sprite.d.ts"
       ],
-      "../../node_modules/@clux/core/types/env.d.ts": [
-        "../../node_modules/@clux/core/env/global.d.ts"
+      "../node_modules/@clux/core/types/env.d.ts": [
+        "../node_modules/@clux/core/env/global.d.ts"
       ],
-      "../../node_modules/@clux/core/types/index.d.ts": [
-        "../../node_modules/@clux/core/types/actions.d.ts",
-        "../../node_modules/@clux/core/types/basic.d.ts",
-        "../../node_modules/@clux/core/types/env.d.ts",
-        "../../node_modules/@clux/core/types/inject.d.ts",
-        "../../node_modules/@clux/core/types/render.d.ts",
-        "../../node_modules/@clux/core/types/sprite.d.ts",
-        "../../node_modules/@clux/core/types/store.d.ts"
+      "../node_modules/@clux/core/types/index.d.ts": [
+        "../node_modules/@clux/core/types/actions.d.ts",
+        "../node_modules/@clux/core/types/basic.d.ts",
+        "../node_modules/@clux/core/types/env.d.ts",
+        "../node_modules/@clux/core/types/inject.d.ts",
+        "../node_modules/@clux/core/types/render.d.ts",
+        "../node_modules/@clux/core/types/sprite.d.ts",
+        "../node_modules/@clux/core/types/store.d.ts"
       ],
-      "../../node_modules/@clux/core/types/inject.d.ts": [
-        "../../node_modules/@clux/core/types/basic.d.ts"
+      "../node_modules/@clux/core/types/inject.d.ts": [
+        "../node_modules/@clux/core/types/basic.d.ts"
       ],
-      "../../node_modules/@clux/core/types/lib/with-redux.d.ts": [
-        "../../node_modules/@clux/core/types/basic.d.ts",
-        "../../node_modules/@clux/core/types/store.d.ts",
-        "../../node_modules/redux/index.d.ts"
+      "../node_modules/@clux/core/types/lib/with-redux.d.ts": [
+        "../node_modules/@clux/core/types/basic.d.ts",
+        "../node_modules/@clux/core/types/store.d.ts",
+        "../node_modules/redux/index.d.ts"
       ],
-      "../../node_modules/@clux/core/types/render.d.ts": [
-        "../../node_modules/@clux/core/types/basic.d.ts",
-        "../../node_modules/@clux/core/types/store.d.ts"
+      "../node_modules/@clux/core/types/render.d.ts": [
+        "../node_modules/@clux/core/types/basic.d.ts",
+        "../node_modules/@clux/core/types/store.d.ts"
       ],
-      "../../node_modules/@clux/core/types/store.d.ts": [
-        "../../node_modules/@clux/core/types/basic.d.ts"
+      "../node_modules/@clux/core/types/store.d.ts": [
+        "../node_modules/@clux/core/types/basic.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/components/documenthead.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/components/documenthead.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/components/else.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/components/else.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/components/link.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/components/link.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/components/switch.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/components/switch.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/env.d.ts": [
-        "../../node_modules/@clux/react-web/env/global.d.ts"
+      "../node_modules/@clux/react-web/types/env.d.ts": [
+        "../node_modules/@clux/react-web/env/global.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/index.d.ts": [
-        "../../node_modules/@clux/core/types/index.d.ts",
-        "../../node_modules/@clux/react-web/types/components/documenthead.d.ts",
-        "../../node_modules/@clux/react-web/types/components/else.d.ts",
-        "../../node_modules/@clux/react-web/types/components/link.d.ts",
-        "../../node_modules/@clux/react-web/types/components/switch.d.ts",
-        "../../node_modules/@clux/react-web/types/env.d.ts",
-        "../../node_modules/@clux/react-web/types/loadview.d.ts",
-        "../../node_modules/@clux/route-browser/types/index.d.ts",
-        "../../node_modules/@clux/route/types/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/index.d.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/components/documenthead.d.ts",
+        "../node_modules/@clux/react-web/types/components/else.d.ts",
+        "../node_modules/@clux/react-web/types/components/link.d.ts",
+        "../node_modules/@clux/react-web/types/components/switch.d.ts",
+        "../node_modules/@clux/react-web/types/env.d.ts",
+        "../node_modules/@clux/react-web/types/loadview.d.ts",
+        "../node_modules/@clux/route-browser/types/index.d.ts",
+        "../node_modules/@clux/route/types/index.d.ts",
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts": [
-        "../../node_modules/@clux/core/types/index.d.ts",
-        "../../node_modules/@clux/core/types/lib/with-redux.d.ts",
-        "../../node_modules/@types/react-redux/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@clux/core/types/lib/with-redux.d.ts",
+        "../node_modules/@types/react-redux/index.d.ts",
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/loadview.d.ts": [
-        "../../node_modules/@clux/core/types/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/loadview.d.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/route-browser/types/index.d.ts": [
-        "../../node_modules/@clux/route/types/index.d.ts",
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@clux/route-browser/types/index.d.ts": [
+        "../node_modules/@clux/route/types/index.d.ts",
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@clux/route/types/index.d.ts": [
-        "../../node_modules/@clux/route/types/basic.d.ts",
-        "../../node_modules/@clux/route/types/module.d.ts",
-        "../../node_modules/@clux/route/types/transform.d.ts"
+      "../node_modules/@clux/route/types/index.d.ts": [
+        "../node_modules/@clux/route/types/basic.d.ts",
+        "../node_modules/@clux/route/types/module.d.ts",
+        "../node_modules/@clux/route/types/transform.d.ts"
       ],
-      "../../node_modules/@clux/route/types/module.d.ts": [
-        "../../node_modules/@clux/core/types/index.d.ts",
-        "../../node_modules/@clux/route/types/basic.d.ts",
-        "../../node_modules/@clux/route/types/transform.d.ts"
+      "../node_modules/@clux/route/types/module.d.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@clux/route/types/basic.d.ts",
+        "../node_modules/@clux/route/types/transform.d.ts"
       ],
-      "../../node_modules/@clux/route/types/transform.d.ts": [
-        "../../node_modules/@clux/route/types/basic.d.ts"
+      "../node_modules/@clux/route/types/transform.d.ts": [
+        "../node_modules/@clux/route/types/basic.d.ts"
       ],
-      "../../node_modules/@types/history/createbrowserhistory.d.ts": [
-        "../../node_modules/@types/history/domutils.d.ts",
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/createbrowserhistory.d.ts": [
+        "../node_modules/@types/history/domutils.d.ts",
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/history/createhashhistory.d.ts": [
-        "../../node_modules/@types/history/domutils.d.ts",
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/createhashhistory.d.ts": [
+        "../node_modules/@types/history/domutils.d.ts",
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/history/creatememoryhistory.d.ts": [
-        "../../node_modules/@types/history/domutils.d.ts",
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/creatememoryhistory.d.ts": [
+        "../node_modules/@types/history/domutils.d.ts",
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/history/index.d.ts": [
-        "../../node_modules/@types/history/createbrowserhistory.d.ts",
-        "../../node_modules/@types/history/createhashhistory.d.ts",
-        "../../node_modules/@types/history/creatememoryhistory.d.ts",
-        "../../node_modules/@types/history/locationutils.d.ts",
-        "../../node_modules/@types/history/pathutils.d.ts"
+      "../node_modules/@types/history/index.d.ts": [
+        "../node_modules/@types/history/createbrowserhistory.d.ts",
+        "../node_modules/@types/history/createhashhistory.d.ts",
+        "../node_modules/@types/history/creatememoryhistory.d.ts",
+        "../node_modules/@types/history/locationutils.d.ts",
+        "../node_modules/@types/history/pathutils.d.ts"
       ],
-      "../../node_modules/@types/history/locationutils.d.ts": [
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/locationutils.d.ts": [
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/history/pathutils.d.ts": [
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/pathutils.d.ts": [
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/hoist-non-react-statics/index.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@types/react-redux/index.d.ts": [
-        "../../node_modules/@types/hoist-non-react-statics/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
-        "../../node_modules/redux/index.d.ts"
+      "../node_modules/@types/react-redux/index.d.ts": [
+        "../node_modules/@types/hoist-non-react-statics/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
+        "../node_modules/redux/index.d.ts"
       ],
-      "../../node_modules/@types/react/index.d.ts": [
-        "../../node_modules/@types/prop-types/index.d.ts",
-        "../../node_modules/@types/react/global.d.ts",
-        "../../node_modules/csstype/index.d.ts"
+      "../node_modules/@types/react/index.d.ts": [
+        "../node_modules/@types/prop-types/index.d.ts",
+        "../node_modules/@types/react/global.d.ts",
+        "../node_modules/csstype/index.d.ts"
       ],
       "./app.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
         "./project.ts"
       ],
       "./components/loadingpanel/index.tsx": [
-        "../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../typings/assets.d.ts"
       ],
       "./components/notfound/index.tsx": [
-        "../../node_modules/@types/react/index.d.ts"
+        "../node_modules/@types/react/index.d.ts"
       ],
       "./index.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
-        "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts",
         "../typings/assets.d.ts",
         "./project.ts"
       ],
       "./modules/mainlayout/index.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
         "./modules/mainlayout/model.ts",
         "./modules/mainlayout/views/main/index.tsx"
       ],
       "./modules/mainlayout/model.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
         "./app.ts"
       ],
       "./modules/mainlayout/views/main/index.tsx": [
-        "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../typings/assets.d.ts",
         "./app.ts",
         "./modules/mainlayout/views/navigation/index.tsx",
         "./modules/mainlayout/views/tabbar/index.tsx"
       ],
       "./modules/mainlayout/views/navigation/index.tsx": [
-        "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../typings/assets.d.ts",
         "./app.ts"
       ],
       "./modules/mainlayout/views/tabbar/index.tsx": [
-        "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../typings/assets.d.ts",
         "./app.ts"
       ],
       "./modules/photo/entity/index.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts"
+        "../node_modules/@clux/react-web/types/index.d.ts"
       ],
       "./modules/photo/index.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
         "./modules/photo/model.ts",
         "./modules/photo/views/main.tsx"
       ],
@@ -657,46 +657,46 @@
         "./modules/photo/entity/index.ts"
       ],
       "./modules/photo/model.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
-        "../../node_modules/fast-deep-equal/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/fast-deep-equal/index.d.ts",
         "./app.ts",
         "./modules/photo/entity/index.ts",
         "./modules/photo/meta.ts"
       ],
       "./modules/photo/views/list/index.tsx": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
-        "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "../typings/assets.d.ts",
         "./app.ts",
         "./modules/photo/entity/index.ts"
       ],
       "./modules/photo/views/main.tsx": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
-        "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "./app.ts",
         "./modules/photo/entity/index.ts",
         "./modules/photo/views/list/index.tsx"
       ],
       "./modules/stage/index.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
         "./modules/stage/model.ts",
         "./modules/stage/views/main.tsx"
       ],
       "./modules/stage/model.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
         "./app.ts",
         "./modules/stage/entity/index.ts"
       ],
       "./modules/stage/views/main.tsx": [
-        "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
+        "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
         "./app.ts",
         "./modules/stage/entity/index.ts"
       ],
       "./project.ts": [
-        "../../node_modules/@clux/react-web/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/index.d.ts",
         "./modules/mainlayout/index.ts",
         "./modules/photo/index.ts",
         "./modules/photo/meta.ts",
@@ -704,127 +704,127 @@
       ]
     },
     "exportedModulesMap": {
-      "../../node_modules/@clux/core/types/basic.d.ts": [
-        "../../node_modules/@clux/core/types/sprite.d.ts"
+      "../node_modules/@clux/core/types/basic.d.ts": [
+        "../node_modules/@clux/core/types/sprite.d.ts"
       ],
-      "../../node_modules/@clux/core/types/env.d.ts": [
-        "../../node_modules/@clux/core/env/global.d.ts"
+      "../node_modules/@clux/core/types/env.d.ts": [
+        "../node_modules/@clux/core/env/global.d.ts"
       ],
-      "../../node_modules/@clux/core/types/index.d.ts": [
-        "../../node_modules/@clux/core/types/actions.d.ts",
-        "../../node_modules/@clux/core/types/basic.d.ts",
-        "../../node_modules/@clux/core/types/env.d.ts",
-        "../../node_modules/@clux/core/types/inject.d.ts",
-        "../../node_modules/@clux/core/types/render.d.ts",
-        "../../node_modules/@clux/core/types/sprite.d.ts",
-        "../../node_modules/@clux/core/types/store.d.ts"
+      "../node_modules/@clux/core/types/index.d.ts": [
+        "../node_modules/@clux/core/types/actions.d.ts",
+        "../node_modules/@clux/core/types/basic.d.ts",
+        "../node_modules/@clux/core/types/env.d.ts",
+        "../node_modules/@clux/core/types/inject.d.ts",
+        "../node_modules/@clux/core/types/render.d.ts",
+        "../node_modules/@clux/core/types/sprite.d.ts",
+        "../node_modules/@clux/core/types/store.d.ts"
       ],
-      "../../node_modules/@clux/core/types/inject.d.ts": [
-        "../../node_modules/@clux/core/types/basic.d.ts"
+      "../node_modules/@clux/core/types/inject.d.ts": [
+        "../node_modules/@clux/core/types/basic.d.ts"
       ],
-      "../../node_modules/@clux/core/types/lib/with-redux.d.ts": [
-        "../../node_modules/@clux/core/types/basic.d.ts",
-        "../../node_modules/@clux/core/types/store.d.ts",
-        "../../node_modules/redux/index.d.ts"
+      "../node_modules/@clux/core/types/lib/with-redux.d.ts": [
+        "../node_modules/@clux/core/types/basic.d.ts",
+        "../node_modules/@clux/core/types/store.d.ts",
+        "../node_modules/redux/index.d.ts"
       ],
-      "../../node_modules/@clux/core/types/render.d.ts": [
-        "../../node_modules/@clux/core/types/basic.d.ts",
-        "../../node_modules/@clux/core/types/store.d.ts"
+      "../node_modules/@clux/core/types/render.d.ts": [
+        "../node_modules/@clux/core/types/basic.d.ts",
+        "../node_modules/@clux/core/types/store.d.ts"
       ],
-      "../../node_modules/@clux/core/types/store.d.ts": [
-        "../../node_modules/@clux/core/types/basic.d.ts"
+      "../node_modules/@clux/core/types/store.d.ts": [
+        "../node_modules/@clux/core/types/basic.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/components/documenthead.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/components/documenthead.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/components/else.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/components/else.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/components/link.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/components/link.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/components/switch.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/components/switch.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/env.d.ts": [
-        "../../node_modules/@clux/react-web/env/global.d.ts"
+      "../node_modules/@clux/react-web/types/env.d.ts": [
+        "../node_modules/@clux/react-web/env/global.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/index.d.ts": [
-        "../../node_modules/@clux/core/types/index.d.ts",
-        "../../node_modules/@clux/react-web/types/components/documenthead.d.ts",
-        "../../node_modules/@clux/react-web/types/components/else.d.ts",
-        "../../node_modules/@clux/react-web/types/components/link.d.ts",
-        "../../node_modules/@clux/react-web/types/components/switch.d.ts",
-        "../../node_modules/@clux/react-web/types/env.d.ts",
-        "../../node_modules/@clux/react-web/types/loadview.d.ts",
-        "../../node_modules/@clux/route-browser/types/index.d.ts",
-        "../../node_modules/@clux/route/types/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/index.d.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@clux/react-web/types/components/documenthead.d.ts",
+        "../node_modules/@clux/react-web/types/components/else.d.ts",
+        "../node_modules/@clux/react-web/types/components/link.d.ts",
+        "../node_modules/@clux/react-web/types/components/switch.d.ts",
+        "../node_modules/@clux/react-web/types/env.d.ts",
+        "../node_modules/@clux/react-web/types/loadview.d.ts",
+        "../node_modules/@clux/route-browser/types/index.d.ts",
+        "../node_modules/@clux/route/types/index.d.ts",
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts": [
-        "../../node_modules/@clux/core/types/index.d.ts",
-        "../../node_modules/@clux/core/types/lib/with-redux.d.ts",
-        "../../node_modules/@types/react-redux/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@clux/core/types/lib/with-redux.d.ts",
+        "../node_modules/@types/react-redux/index.d.ts",
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/react-web/types/loadview.d.ts": [
-        "../../node_modules/@clux/core/types/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@clux/react-web/types/loadview.d.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@clux/route-browser/types/index.d.ts": [
-        "../../node_modules/@clux/route/types/index.d.ts",
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@clux/route-browser/types/index.d.ts": [
+        "../node_modules/@clux/route/types/index.d.ts",
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@clux/route/types/index.d.ts": [
-        "../../node_modules/@clux/route/types/basic.d.ts",
-        "../../node_modules/@clux/route/types/module.d.ts",
-        "../../node_modules/@clux/route/types/transform.d.ts"
+      "../node_modules/@clux/route/types/index.d.ts": [
+        "../node_modules/@clux/route/types/basic.d.ts",
+        "../node_modules/@clux/route/types/module.d.ts",
+        "../node_modules/@clux/route/types/transform.d.ts"
       ],
-      "../../node_modules/@clux/route/types/module.d.ts": [
-        "../../node_modules/@clux/core/types/index.d.ts",
-        "../../node_modules/@clux/route/types/basic.d.ts",
-        "../../node_modules/@clux/route/types/transform.d.ts"
+      "../node_modules/@clux/route/types/module.d.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@clux/route/types/basic.d.ts",
+        "../node_modules/@clux/route/types/transform.d.ts"
       ],
-      "../../node_modules/@clux/route/types/transform.d.ts": [
-        "../../node_modules/@clux/route/types/basic.d.ts"
+      "../node_modules/@clux/route/types/transform.d.ts": [
+        "../node_modules/@clux/route/types/basic.d.ts"
       ],
-      "../../node_modules/@types/history/createbrowserhistory.d.ts": [
-        "../../node_modules/@types/history/domutils.d.ts",
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/createbrowserhistory.d.ts": [
+        "../node_modules/@types/history/domutils.d.ts",
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/history/createhashhistory.d.ts": [
-        "../../node_modules/@types/history/domutils.d.ts",
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/createhashhistory.d.ts": [
+        "../node_modules/@types/history/domutils.d.ts",
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/history/creatememoryhistory.d.ts": [
-        "../../node_modules/@types/history/domutils.d.ts",
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/creatememoryhistory.d.ts": [
+        "../node_modules/@types/history/domutils.d.ts",
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/history/index.d.ts": [
-        "../../node_modules/@types/history/createbrowserhistory.d.ts",
-        "../../node_modules/@types/history/createhashhistory.d.ts",
-        "../../node_modules/@types/history/creatememoryhistory.d.ts",
-        "../../node_modules/@types/history/locationutils.d.ts",
-        "../../node_modules/@types/history/pathutils.d.ts"
+      "../node_modules/@types/history/index.d.ts": [
+        "../node_modules/@types/history/createbrowserhistory.d.ts",
+        "../node_modules/@types/history/createhashhistory.d.ts",
+        "../node_modules/@types/history/creatememoryhistory.d.ts",
+        "../node_modules/@types/history/locationutils.d.ts",
+        "../node_modules/@types/history/pathutils.d.ts"
       ],
-      "../../node_modules/@types/history/locationutils.d.ts": [
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/locationutils.d.ts": [
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/history/pathutils.d.ts": [
-        "../../node_modules/@types/history/index.d.ts"
+      "../node_modules/@types/history/pathutils.d.ts": [
+        "../node_modules/@types/history/index.d.ts"
       ],
-      "../../node_modules/@types/hoist-non-react-statics/index.d.ts": [
-        "../../node_modules/@types/react/index.d.ts"
+      "../node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
       ],
-      "../../node_modules/@types/react-redux/index.d.ts": [
-        "../../node_modules/@types/hoist-non-react-statics/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
-        "../../node_modules/redux/index.d.ts"
+      "../node_modules/@types/react-redux/index.d.ts": [
+        "../node_modules/@types/hoist-non-react-statics/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
+        "../node_modules/redux/index.d.ts"
       ],
-      "../../node_modules/@types/react/index.d.ts": [
-        "../../node_modules/@types/prop-types/index.d.ts",
-        "../../node_modules/@types/react/global.d.ts",
-        "../../node_modules/csstype/index.d.ts"
+      "../node_modules/@types/react/index.d.ts": [
+        "../node_modules/@types/prop-types/index.d.ts",
+        "../node_modules/@types/react/global.d.ts",
+        "../node_modules/csstype/index.d.ts"
       ],
       "./app.ts": [
         "../../node_modules/@clux/core/types/index.d.ts",
@@ -912,71 +912,71 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "../../node_modules/@clux/core/env/global.d.ts",
-      "../../node_modules/@clux/core/types/actions.d.ts",
-      "../../node_modules/@clux/core/types/basic.d.ts",
-      "../../node_modules/@clux/core/types/env.d.ts",
-      "../../node_modules/@clux/core/types/index.d.ts",
-      "../../node_modules/@clux/core/types/inject.d.ts",
-      "../../node_modules/@clux/core/types/lib/with-redux.d.ts",
-      "../../node_modules/@clux/core/types/render.d.ts",
-      "../../node_modules/@clux/core/types/sprite.d.ts",
-      "../../node_modules/@clux/core/types/store.d.ts",
-      "../../node_modules/@clux/react-web/env/global.d.ts",
-      "../../node_modules/@clux/react-web/types/components/documenthead.d.ts",
-      "../../node_modules/@clux/react-web/types/components/else.d.ts",
-      "../../node_modules/@clux/react-web/types/components/link.d.ts",
-      "../../node_modules/@clux/react-web/types/components/switch.d.ts",
-      "../../node_modules/@clux/react-web/types/env.d.ts",
-      "../../node_modules/@clux/react-web/types/index.d.ts",
-      "../../node_modules/@clux/react-web/types/lib/with-redux.d.ts",
-      "../../node_modules/@clux/react-web/types/loadview.d.ts",
-      "../../node_modules/@clux/route-browser/types/index.d.ts",
-      "../../node_modules/@clux/route/types/basic.d.ts",
-      "../../node_modules/@clux/route/types/index.d.ts",
-      "../../node_modules/@clux/route/types/module.d.ts",
-      "../../node_modules/@clux/route/types/transform.d.ts",
-      "../../node_modules/@types/history/createbrowserhistory.d.ts",
-      "../../node_modules/@types/history/createhashhistory.d.ts",
-      "../../node_modules/@types/history/creatememoryhistory.d.ts",
-      "../../node_modules/@types/history/domutils.d.ts",
-      "../../node_modules/@types/history/index.d.ts",
-      "../../node_modules/@types/history/locationutils.d.ts",
-      "../../node_modules/@types/history/pathutils.d.ts",
-      "../../node_modules/@types/hoist-non-react-statics/index.d.ts",
-      "../../node_modules/@types/prop-types/index.d.ts",
-      "../../node_modules/@types/react-redux/index.d.ts",
-      "../../node_modules/@types/react/global.d.ts",
-      "../../node_modules/@types/react/index.d.ts",
-      "../../node_modules/csstype/index.d.ts",
-      "../../node_modules/fast-deep-equal/index.d.ts",
-      "../../node_modules/redux/index.d.ts",
-      "../../node_modules/typescript/lib/lib.dom.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "../../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "../../node_modules/typescript/lib/lib.es2016.d.ts",
-      "../../node_modules/typescript/lib/lib.es2017.d.ts",
-      "../../node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "../../node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "../../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "../../node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "../../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "../../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
-      "../../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "../../node_modules/typescript/lib/lib.es2018.d.ts",
-      "../../node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "../../node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "../../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/@clux/core/env/global.d.ts",
+      "../node_modules/@clux/core/types/actions.d.ts",
+      "../node_modules/@clux/core/types/basic.d.ts",
+      "../node_modules/@clux/core/types/env.d.ts",
+      "../node_modules/@clux/core/types/index.d.ts",
+      "../node_modules/@clux/core/types/inject.d.ts",
+      "../node_modules/@clux/core/types/lib/with-redux.d.ts",
+      "../node_modules/@clux/core/types/render.d.ts",
+      "../node_modules/@clux/core/types/sprite.d.ts",
+      "../node_modules/@clux/core/types/store.d.ts",
+      "../node_modules/@clux/react-web/env/global.d.ts",
+      "../node_modules/@clux/react-web/types/components/documenthead.d.ts",
+      "../node_modules/@clux/react-web/types/components/else.d.ts",
+      "../node_modules/@clux/react-web/types/components/link.d.ts",
+      "../node_modules/@clux/react-web/types/components/switch.d.ts",
+      "../node_modules/@clux/react-web/types/env.d.ts",
+      "../node_modules/@clux/react-web/types/index.d.ts",
+      "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts",
+      "../node_modules/@clux/react-web/types/loadview.d.ts",
+      "../node_modules/@clux/route-browser/types/index.d.ts",
+      "../node_modules/@clux/route/types/basic.d.ts",
+      "../node_modules/@clux/route/types/index.d.ts",
+      "../node_modules/@clux/route/types/module.d.ts",
+      "../node_modules/@clux/route/types/transform.d.ts",
+      "../node_modules/@types/history/createbrowserhistory.d.ts",
+      "../node_modules/@types/history/createhashhistory.d.ts",
+      "../node_modules/@types/history/creatememoryhistory.d.ts",
+      "../node_modules/@types/history/domutils.d.ts",
+      "../node_modules/@types/history/index.d.ts",
+      "../node_modules/@types/history/locationutils.d.ts",
+      "../node_modules/@types/history/pathutils.d.ts",
+      "../node_modules/@types/hoist-non-react-statics/index.d.ts",
+      "../node_modules/@types/prop-types/index.d.ts",
+      "../node_modules/@types/react-redux/index.d.ts",
+      "../node_modules/@types/react/global.d.ts",
+      "../node_modules/@types/react/index.d.ts",
+      "../node_modules/csstype/index.d.ts",
+      "../node_modules/fast-deep-equal/index.d.ts",
+      "../node_modules/redux/index.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
       "./app.ts",
       "./components/loadingpanel/index.tsx",
       "./components/notfound/index.tsx",

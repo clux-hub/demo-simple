@@ -3,7 +3,7 @@ import {Dispatch} from '@clux/react-web';
 import {connectRedux} from '@clux/react-web/lib/with-redux';
 import {APPState, staticServer} from '@/APP';
 import {ListItem, ListSearch, ListSummary} from '../../entity';
-import styles from './index.module.less';
+import styles from './index.m.less';
 
 interface StoreProps {
   listVer?: number;

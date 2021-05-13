@@ -215,10 +215,10 @@
     "@babel/helper-validator-identifier" "^7.14.0"
     to-fast-properties "^2.0.0"
 
-"@clux/eslint-plugin-recommended@~0.0.1":
-  version "0.0.4"
-  resolved "http://localhost:4873/@clux%2feslint-plugin-recommended/-/eslint-plugin-recommended-0.0.4.tgz#ae31718f796ba85d5f2822b7216b897468c7211b"
-  integrity sha512-Mi2Y41fYph58ZXBZiyDlN7+4/4aPloGzDmvneZ08fu4UPyqj1ZBFANHpD722dTma2JTAAvgPg3tPKlX30HFN7A==
+"@clux/eslint-plugin-recommended@~0.0.7":
+  version "0.0.7"
+  resolved "http://localhost:4873/@clux%2feslint-plugin-recommended/-/eslint-plugin-recommended-0.0.7.tgz#c0264f92254c077144f2e2c2d7419fe76d4806c5"
+  integrity sha512-yZInl5B/5w3H0gSjie5Kh8GyTuExAJBEgmuij7kTgkTpRjmNkAayqZRyJrFKihiAQwUzaMZyIRSPTwpSS3QypA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "~4.22.0"
     "@typescript-eslint/parser" "~4.22.0"
@@ -230,6 +230,7 @@
     eslint-plugin-prettier "~3.4.0"
     eslint-plugin-react "~7.23.0"
     eslint-plugin-react-hooks "~4.2.0"
+    eslint-plugin-vue "~7.9.0"
 
 "@clux/stylelint-config-recommended@~0.0.1":
   version "0.0.1"
@@ -589,12 +590,12 @@ JSONStream@^1.0.4:
     jsonparse "^1.2.0"
     through ">=2.2.7 <3"
 
-acorn-jsx@^5.3.1:
+acorn-jsx@^5.2.0, acorn-jsx@^5.3.1:
   version "5.3.1"
   resolved "http://localhost:4873/acorn-jsx/-/acorn-jsx-5.3.1.tgz#fc8661e11b7ac1539c47dbfea2e72b3af34d267b"
   integrity sha512-K0Ptm/47OKfQRpNQ2J/oIN/3QYiK6FwW+eJbILhsdxh2WTLdl+30o8aGdTbm5JbffpFFAg/g+zi1E+jvJha5ng==
 
-acorn@^7.4.0:
+acorn@^7.1.1, acorn@^7.4.0:
   version "7.4.1"
   resolved "http://localhost:4873/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
@@ -1455,6 +1456,16 @@ eslint-plugin-react@~7.23.0:
     resolve "^2.0.0-next.3"
     string.prototype.matchall "^4.0.4"
 
+eslint-plugin-vue@~7.9.0:
+  version "7.9.0"
+  resolved "http://localhost:4873/eslint-plugin-vue/-/eslint-plugin-vue-7.9.0.tgz#f8e83a2a908f4c43fc8304f5401d4ff671f3d560"
+  integrity sha512-2Q0qQp5+5h+pZvJKCbG1/jCRUYrdgAz5BYKGyTlp2NU8mx09u3Hp7PsH6d5qef6ojuPoCXMnrbbDxeoplihrSw==
+  dependencies:
+    eslint-utils "^2.1.0"
+    natural-compare "^1.4.0"
+    semver "^7.3.2"
+    vue-eslint-parser "^7.6.0"
+
 eslint-rule-composer@^0.3.0:
   version "0.3.0"
   resolved "http://localhost:4873/eslint-rule-composer/-/eslint-rule-composer-0.3.0.tgz#79320c927b0c5c0d3d3d2b76c8b4a488f25bbaf9"
@@ -1527,6 +1538,15 @@ eslint@~7.25.0:
     table "^6.0.4"
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
+
+espree@^6.2.1:
+  version "6.2.1"
+  resolved "http://localhost:4873/espree/-/espree-6.2.1.tgz#77fc72e1fd744a2052c20f38a5b575832e82734a"
+  integrity sha512-ysCxRQY3WaXJz9tdbWOwuWr5Y/XrPTGX9Kiz3yoUXwW0VZ4w30HTkQLaGx/+ttFjF8i+ACbArnB4ce68a9m5hw==
+  dependencies:
+    acorn "^7.1.1"
+    acorn-jsx "^5.2.0"
+    eslint-visitor-keys "^1.1.0"
 
 espree@^7.3.0, espree@^7.3.1:
   version "7.3.1"
@@ -2553,7 +2573,7 @@ longest@^2.0.1:
   resolved "http://localhost:4873/longest/-/longest-2.0.1.tgz#781e183296aa94f6d4d916dc335d0d17aefa23f8"
   integrity sha1-eB4YMpaqlPbU2RbcM10NF676I/g=
 
-loose-envify@^1.4.0:
+loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "http://localhost:4873/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -3186,6 +3206,14 @@ react-is@^16.8.1:
   version "16.13.1"
   resolved "http://localhost:4873/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react@~17.0.1:
+  version "17.0.2"
+  resolved "http://localhost:4873/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
+  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
@@ -3998,6 +4026,18 @@ vfile@^4.0.0:
     is-buffer "^2.0.0"
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
+
+vue-eslint-parser@^7.6.0:
+  version "7.6.0"
+  resolved "http://localhost:4873/vue-eslint-parser/-/vue-eslint-parser-7.6.0.tgz#01ea1a2932f581ff244336565d712801f8f72561"
+  integrity sha512-QXxqH8ZevBrtiZMZK0LpwaMfevQi9UL7lY6Kcp+ogWHC88AuwUPwwCIzkOUc1LR4XsYAt/F9yHXAB/QoD17QXA==
+  dependencies:
+    debug "^4.1.1"
+    eslint-scope "^5.0.0"
+    eslint-visitor-keys "^1.1.0"
+    espree "^6.2.1"
+    esquery "^1.4.0"
+    lodash "^4.17.15"
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"
