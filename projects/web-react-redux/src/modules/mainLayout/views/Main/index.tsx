@@ -1,9 +1,9 @@
 import React from 'react';
 import {RouteState, APPState, LoadView} from '@/APP';
-import {connectRedux} from '@clux/react-web/lib/with-redux';
+import {connectRedux} from '@clux/react-web';
 import Navigation from '../Navigation';
 import TabBar from '../TabBar';
-import styles from './index.m.less';
+import styles from './index.module.less';
 
 const Photo = LoadView('photo', 'main');
 

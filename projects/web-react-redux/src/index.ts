@@ -1,7 +1,6 @@
-import {createApp} from '@clux/react-web';
-import {createRedux} from '@clux/react-web/lib/with-redux';
+import {createApp, createRedux} from '@clux/react-web';
 import {moduleGetter} from './project';
-import '@/assets/css/global.m.less';
+import '@/assets/css/global.module.less';
 
 createApp(moduleGetter)
   .useStore(createRedux({}))

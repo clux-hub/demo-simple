@@ -1,7 +1,7 @@
 import React from 'react';
 import {RouteState, APPState} from '@/APP';
-import {connectRedux} from '@clux/react-web/lib/with-redux';
-import styles from './index.m.less';
+import {connectRedux} from '@clux/react-web';
+import styles from './index.module.less';
 
 interface StoreProps {
   subView: RouteState['params'];

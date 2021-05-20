@@ -4,8 +4,9 @@
     "lib": ["es2018"],
     "types": [],
     "noEmit": true,
+    "skipLibCheck": true,
     "experimentalDecorators": true
   },
-  "include": ["./","./**/*.vue", ".eslintrc.js"],
+  "include": ["./", "./**/*.vue", "./**/.eslintrc.js"],
   "exclude": ["**/dist", "**/docs", "**/lib"]
 }

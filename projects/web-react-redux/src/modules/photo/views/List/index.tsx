@@ -1,9 +1,8 @@
 import React from 'react';
-import {Dispatch} from '@clux/react-web';
-import {connectRedux} from '@clux/react-web/lib/with-redux';
+import {connectRedux, Dispatch} from '@clux/react-web';
 import {APPState, staticServer} from '@/APP';
 import {ListItem, ListSearch, ListSummary} from '../../entity';
-import styles from './index.m.less';
+import styles from './index.module.less';
 
 interface StoreProps {
   listVer?: number;

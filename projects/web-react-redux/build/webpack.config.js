@@ -7,7 +7,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlReplaceWebpackPlugin = require('html-replace-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-
+const EslintWebpackPlugin = require('eslint-webpack-plugin');
+const {genCommonOptions} = require('@clux/dev-webpack/dist/utils');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 const debugMode = !!process.env.DEBUG;
@@ -32,72 +33,10 @@ console.info(`mode: ${chalk.magenta(nodeEnv)} \ndebuger: ${chalk.magenta(devtool
 
 const {clientPublicPath, apiProxy} = projectConfig;
 
-const modulesResolve = {
-  extensions: ['.js', '.ts', '.tsx', '.json'],
-  alias: {
-    '@': srcPath,
-  },
-};
-
-const mediaPath = 'media';
-
-const fileLoader = {
-  test: /\.(gif|png|jpe?g|svg)$/,
-  loader: 'url-loader',
-  options: {
-    limit: 1024,
-    publicPath: clientPublicPath,
-    name: `${mediaPath}/[name]${isProdModel ? '.[hash:8]' : ''}.[ext]`,
-  },
-};
-
-function generateScopedName(localName, mfileName) {
-  if (mfileName.match(/[/\\]assets[/\\]css[/\\]global.m.\w+?$/)) {
-    return `g-${localName}`;
-  }
-  mfileName = mfileName
-    .replace(srcPath, '')
-    .replace(/\W/g, '-')
-    .replace(/^-|-index-m-\w+$|-m-\w+$/g, '')
-    .replace(/^components-/, 'comp-')
-    .replace(/^modules-.*?(\w+)-views(-?)(.*)/, '$1$2$3')
-    .replace(/^modules-.*?(\w+)-components(-?)(.*)/, '$1-comp$2$3');
-  return localName === 'root' ? mfileName : `${mfileName}_${localName}`;
-}
-function getLocalIdent(context, localIdentName, localName) {
-  return generateScopedName(localName, context.resourcePath);
-}
-
-function getStyleLoader(cssModule, isLess) {
-  const base = isProdModel ? [{loader: MiniCssExtractPlugin.loader}] : [{loader: 'style-loader'}];
-  base.push({
-    loader: 'css-loader',
-    options: {
-      importLoaders: 1,
-      modules: cssModule
-        ? {
-            // localIdentName: '[path][name]_[local]',
-            getLocalIdent,
-            localIdentContext: srcPath,
-          }
-        : false,
-    },
-  });
-  base.push('postcss-loader');
-  if (isLess) {
-    base.push({
-      loader: 'less-loader',
-      options: {
-        lessOptions: {
-          javascriptEnabled: true,
-        },
-      },
-    });
-  }
-  return base;
-}
+const commonOptions = genCommonOptions({isProdModel, srcPath});
 
 const clientWebpackConfig = {
+  context: rootPath,
   name: 'client',
   mode: nodeEnv,
   target: 'browserslist',
@@ -114,7 +53,12 @@ const clientWebpackConfig = {
     hashDigestLength: 8,
     filename: isProdModel ? '[name].[contenthash].js' : '[name].js',
   },
-  resolve: modulesResolve,
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js', '.jsx', '.json', '.vue'],
+    alias: {
+      '@': srcPath,
+    },
+  },
   optimization: {
     // minimize: false,
     minimizer: ['...', new CssMinimizerPlugin()],
@@ -122,47 +66,35 @@ const clientWebpackConfig = {
   module: {
     rules: [
       {
-        test: /\.js$/,
-        enforce: 'pre',
-        use: 'source-map-loader',
+        oneOf: commonOptions.oneOfFileLoader,
       },
       {
         oneOf: [
           {
             test: /\.(tsx|ts)$/,
-            use: isProdModel
-              ? 'babel-loader'
-              : [
-                  {loader: '@clux/dev-webpack/dist/loader/module-hot-loader'},
-                  {
-                    loader: 'babel-loader',
-                    options: {
-                      plugins: [require.resolve('react-refresh/babel')],
-                    },
-                  },
-                ],
-          },
-          {
-            test: /\.m\.less$/,
-            // include: pathsConfig.moduleSearch,
-            use: getStyleLoader(true, true),
-          },
-          {
-            test: /\.less$/,
-            // include: pathsConfig.moduleSearch,
-            use: getStyleLoader(false, true),
+            oneOf: commonOptions.oneOfTsLoader,
           },
           {
             test: /\.css$/,
-            use: getStyleLoader(false, false),
+            oneOf: commonOptions.oneOfCssLoader(),
           },
-          fileLoader,
+          {
+            test: /\.less$/,
+            oneOf: commonOptions.oneOfCssLoader({
+              loader: 'less-loader',
+              options: {
+                sourceMap: false,
+              },
+            }),
+          },
         ],
       },
     ],
   },
   plugins: [
     new webpack.ProgressPlugin(),
+    commonOptions.forkTsCheckerWebpackPlugin,
+    new EslintWebpackPlugin({cache: true, extensions: ['.js', '.jsx', '.ts', '.tsx']}),
     new HtmlWebpackPlugin({
       minify: false,
       inject: 'body',

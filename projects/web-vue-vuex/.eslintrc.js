@@ -11,5 +11,13 @@ module.exports = {
     project: `${__dirname}/tsconfig.json`,
   },
   rules: {},
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        'import/no-unresolved': 'off',
+      },
+    },
+  ],
   ignorePatterns: tsconfig.exclude,
 };

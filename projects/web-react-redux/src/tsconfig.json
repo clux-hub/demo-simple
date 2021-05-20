@@ -2,9 +2,10 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "lib": ["es2018","DOM"],
+    "lib": ["es2018", "DOM"],
     "moduleResolution": "node",
     "types": ["../typings/assets"],
+    "skipLibCheck": true,
     "noEmit": false,
     "declaration": true,
     "emitDeclarationOnly": true,

@@ -1,5 +1,5 @@
 {
-  "name": "web-react-redux",
+  "name": "web-vue-vuex",
   "version": "1.0.0",
   "description": "",
   "author": "clux-hub <clux_hub@163.com>",
@@ -17,10 +17,11 @@
   "scripts": {
     "patchActions": "clux-patch-actions patch",
     "typeCheck": "tsc --build ./tests",
-    "eslint": "cross-env NODE_ENV=production eslint --cache **/*.{js,jsx,ts,tsx}",
-    "stylelint": "cross-env NODE_ENV=production stylelint --cache **/*.{css,less}",
+    "eslint": "cross-env NODE_ENV=production eslint --cache **/*.{js,ts,tsx,vue}",
+    "stylelint": "cross-env NODE_ENV=production stylelint --cache **/*.{css,less,vue}",
+    "jsonlint": "prettier --write **/*.json",
     "buildPolyfill": "cross-env NODE_ENV=production node build/buildPolyfill.js",
-    "prebuild":"yarn eslint && yarn stylelint && yarn typeCheck",
+    "prebuild": "yarn eslint && yarn stylelint && yarn jsonlint && yarn typeCheck",
     "build": "cross-env NODE_ENV=production PROJ_ENV=local node build/build.js",
     "start": "cross-env NODE_ENV=development PROJ_ENV=local DEBUG=true node build/start.js",
     "runLocal": "node ./dist/local/start.js",
@@ -29,31 +30,24 @@
   "resolutions": {
     "@types/node": "~14.14.7",
     "@types/jest": "~26.0.15",
-    "@types/react": "~16.9.23",
-    "@types/react-dom": "~16.9.5",
     "@types/express": "~4.17.9"
   },
   "dependencies": {
-    "@clux/react-web": "~0.0.8",
-    "react": "~17.0.1",
-    "react-dom": "~17.0.1",
-    "react-redux": "~7.2.4"
+    "@clux/vue-web": "~0.0.15",
+    "vue": "~3.0.0",
+    "vuex": "next"
   },
   "devDependencies": {
-    "@clux/dev-pkg": "~0.0.2",
+    "@clux/dev-pkg": "~0.0.3",
     "@clux/dev-utils": "~0.0.3",
-    "@clux/dev-webpack": "~0.0.1",
+    "@clux/dev-webpack": "~0.0.11",
     "@types/express": "~4.17.9",
     "@types/jest": "~26.0.15",
-    "@types/react": "~16.9.23",
-    "@types/react-dom": "~16.9.5",
-    "@types/react-redux": "~7.1.14",
     "postcss-px2rem": "~0.3.0",
-    "mockjs":"~1.1.0",
+    "mockjs": "~1.1.0",
     "jest": "~26.6.3",
     "less": "~3.12.2",
     "less-loader": "~7.1.0",
     "typescript": "~4.2.0"
   }
 }
-

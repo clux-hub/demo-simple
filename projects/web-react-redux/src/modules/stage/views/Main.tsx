@@ -1,5 +1,6 @@
 import React from 'react';
-import {connectRedux, Provider} from '@clux/react-web/lib/with-redux';
+import {Provider} from 'react-redux';
+import {connectRedux} from '@clux/react-web';
 import {LoadView, RouteState, APPState} from '@/APP';
 import {CurUser} from '../entity';
 
