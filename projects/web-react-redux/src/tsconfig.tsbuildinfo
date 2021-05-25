@@ -327,7 +327,7 @@
         "affectsGlobalScope": false
       },
       "./modules/stage/views/Main.tsx": {
-        "version": "763e2c81baac0cc775cc5b80f0429f7a2565ad2d785a2b7c258b5907f907a3e5",
+        "version": "dec7f40ed32cdf26c820e659c9579381df9e5c2dd2ff9eeeed9f94649d230ec6",
         "signature": "b28e663351a2a385b7a4df45c1077e4692f2114d61811f300425461497f980f7",
         "affectsGlobalScope": false
       },
@@ -373,7 +373,7 @@
       },
       "./modules/mainLayout/index.ts": {
         "version": "d97f12f3523c2e85216b8483a5a16b572c75d3576c0a29c953e5aaab98c2e63e",
-        "signature": "2a59e19961203d44e133b62b4c87a6a582ce29a5ee06f7d7dccb558336b24e30",
+        "signature": "8760c82f0531c8590aa99fffb86a2164103cb4dd737e48129b6a79c0af78a35e",
         "affectsGlobalScope": false
       },
       "../node_modules/fast-deep-equal/index.d.ts": {
@@ -393,7 +393,7 @@
       },
       "./modules/photo/views/Main.tsx": {
         "version": "8c714cb4f8ffd2a0de50b27ade0091a8422a958ff9c6aab58b9a170975649c3b",
-        "signature": "c55941d8281c72b1b1e685160d3ad94686fe2644196a25b19f0d58e29faea246",
+        "signature": "58a98c3f34997415c7f06dcb8562943f02679a2392b628de994484e786776113",
         "affectsGlobalScope": false
       },
       "./modules/photo/index.ts": {
@@ -695,6 +695,7 @@
         "../node_modules/@clux/react-web/types/index.d.ts",
         "../node_modules/@types/react-redux/index.d.ts",
         "../node_modules/@types/react/index.d.ts",
+        "../typings/assets.d.ts",
         "./APP.ts",
         "./modules/stage/entity/index.ts"
       ],
@@ -755,13 +756,13 @@
       "../node_modules/@clux/react-web/types/index.d.ts": [
         "../node_modules/@clux/core/types/index.d.ts",
         "../node_modules/@clux/core/types/lib/with-redux.d.ts",
-        "../node_modules/@clux/react-web/types/components/DocumentHead.d.ts",
-        "../node_modules/@clux/react-web/types/components/Else.d.ts",
-        "../node_modules/@clux/react-web/types/components/Link.d.ts",
-        "../node_modules/@clux/react-web/types/components/Switch.d.ts",
+        "../node_modules/@clux/react-web/types/components/documenthead.d.ts",
+        "../node_modules/@clux/react-web/types/components/else.d.ts",
+        "../node_modules/@clux/react-web/types/components/link.d.ts",
+        "../node_modules/@clux/react-web/types/components/switch.d.ts",
         "../node_modules/@clux/react-web/types/env.d.ts",
         "../node_modules/@clux/react-web/types/lib/with-redux/index.d.ts",
-        "../node_modules/@clux/react-web/types/loadView.d.ts",
+        "../node_modules/@clux/react-web/types/loadview.d.ts",
         "../node_modules/@clux/route-browser/types/index.d.ts",
         "../node_modules/@clux/route/types/index.d.ts",
         "../node_modules/@types/react/index.d.ts"
@@ -900,7 +901,7 @@
       "./modules/stage/index.ts": [
         "../node_modules/@clux/core/types/index.d.ts",
         "./modules/stage/model.ts",
-        "./modules/stage/views/Main.tsx"
+        "./modules/stage/views/main.tsx"
       ],
       "./modules/stage/model.ts": [
         "../../node_modules/@clux/react-web/types/index.d.ts",
@@ -1034,15 +1035,15 @@
         0
       ],
       [
+        "./modules/photo/index.ts",
+        0
+      ],
+      [
         "./modules/photo/model.ts",
         0
       ],
       [
         "./modules/photo/views/List/index.tsx",
-        0
-      ],
-      [
-        "./modules/photo/views/Main.tsx",
         0
       ],
       [

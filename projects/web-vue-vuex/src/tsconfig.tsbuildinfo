@@ -367,8 +367,8 @@
         "affectsGlobalScope": false
       },
       "./modules/mainLayout/views/Main.vue.ts": {
-        "version": "50dac362f6e14a3db09a459bd7a056d5390c09a03bce6ddd4d8c97c25e3bc2d8",
-        "signature": "365953e18a138e3f1ec40d45714775d1d09b4426c4d94d414bc4a874f4952ada",
+        "version": "d0c901e564e93600d5351c1709396fd3f48829f4773c5304d1a46aef62e4f163",
+        "signature": "37bacee3547cfb2d754570ddbce979c96a74474fc1bed365d7df266f779f398f",
         "affectsGlobalScope": false
       },
       "./modules/mainLayout/model.ts": {
@@ -613,7 +613,6 @@
         "./APP.ts"
       ],
       "./modules/mainLayout/views/Main.vue.ts": [
-        "../node_modules/@clux/vue-web/types/index.d.ts",
         "../node_modules/vue/dist/vue.d.ts",
         "./modules/mainLayout/views/Navigation.vue.ts",
         "./modules/mainLayout/views/TabBar.vue.ts"

@@ -2,6 +2,7 @@ import React from 'react';
 import {Provider} from 'react-redux';
 import {connectRedux} from '@clux/react-web';
 import {LoadView, RouteState, APPState} from '@/APP';
+import Img1 from '@/assets/imgs/loading48x48.gif';
 import {CurUser} from '../entity';
 
 const MainLayout = LoadView('mainLayout', 'main');
@@ -14,7 +15,12 @@ interface OwnerProps {}
 interface DispatchProps {}
 
 const Component: React.FC<StoreProps & DispatchProps & OwnerProps> = ({subView}) => {
-  return <>{subView.mainLayout && <MainLayout />}</>;
+  return (
+    <>
+      {subView.mainLayout && <MainLayout />}
+      <img src={Img1} alt="" />
+    </>
+  );
 };
 
 function mapStateToProps(appState: APPState): StoreProps {
