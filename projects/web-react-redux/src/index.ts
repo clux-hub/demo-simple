@@ -1,5 +1,6 @@
 import {createApp, createRedux} from '@clux/react-web';
 import {moduleGetter} from './project';
+import '@/assets/css/iconfont.css';
 import '@/assets/css/global.module.less';
 
 createApp(moduleGetter)

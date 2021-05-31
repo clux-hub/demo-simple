@@ -1,44 +1,48 @@
-import React, {Suspense} from 'react';
+import React from 'react';
 import {Dispatch, connectRedux} from '@clux/react-web';
 import {APPState} from '@/APP';
 import List from './List';
-import {ListView} from '../entity';
+import Detail from './Detail';
+import {ListView, ItemView, ItemDetail} from '../entity';
 
-const Test: React.FC<{msg: string}> = ({msg}) => {
-  return <div>test{msg}</div>;
-};
+// const Test: React.FC<{msg: string}> = ({msg}) => {
+//   return <div>test{msg}</div>;
+// };
 
-function loadView() {
-  return (props: {msg: string}) => {
-    return (
-      <Suspense fallback="null">
-        <Test {...props} />
-      </Suspense>
-    );
-  };
-}
+// function loadView() {
+//   return (props: {msg: string}) => {
+//     return (
+//       <Suspense fallback="null">
+//         <Test {...props} />
+//       </Suspense>
+//     );
+//   };
+// }
 
-const LoadTest = loadView();
+// const LoadTest = loadView();
 
 export interface StoreProps {
   listView: ListView;
+  itemView: ItemView;
+  itemDetail?: ItemDetail;
 }
 export interface OwnerProps {}
 export interface DispatchProps {
   dispatch: Dispatch;
 }
 
-const Component: React.FC<StoreProps & DispatchProps & OwnerProps> = ({listView}) => {
+const Component: React.FC<StoreProps & DispatchProps & OwnerProps> = ({listView, itemView, itemDetail, dispatch}) => {
   return (
     <>
-      <LoadTest msg="hello" />
       {listView === 'list' && <List />}
+      {itemView === 'detail' && itemDetail && <Detail dispatch={dispatch} itemDetail={itemDetail} />}
     </>
   );
 };
 
 function mapStateToProps(appState: APPState): StoreProps {
-  return {listView: appState.photo.listView};
+  const {listView, itemView, itemDetail} = appState.photo;
+  return {listView, itemView, itemDetail};
 }
 
 export default connectRedux(mapStateToProps)(React.memo(Component));

@@ -1,7 +1,7 @@
 import React from 'react';
 import {RouteState, APPState, LoadView} from '@/APP';
 import {connectRedux} from '@clux/react-web';
-import Navigation from '../Navigation';
+import NavBar from '@/components/NavBar';
 import TabBar from '../TabBar';
 import styles from './index.module.less';
 
@@ -16,7 +16,7 @@ export interface DispatchProps {}
 const Component: React.FC<StoreProps & DispatchProps & OwnerProps> = ({subView}) => {
   return (
     <>
-      <Navigation />
+      <NavBar title="相册" />
       <div className={styles.root}>{subView.photo && <Photo />}</div>
       <TabBar />
     </>

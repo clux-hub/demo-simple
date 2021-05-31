@@ -1,31 +1,29 @@
-const apiProxy = {
-  '/api': {
-    target: 'http://192.168.0.232:8000',
-    pathRewrite: {
-      '^/api': '',
-    },
-    xfwd: true,
-    secure: false,
-    changeOrigin: true,
-    timeout: 3000,
-    proxyTimeout: 3000,
-  },
-};
-
 module.exports = {
   type: 'react',
-  devServerPreset: {port: 4002},
+  devServerPreset: {
+    port: 4003,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3003/',
+        pathRewrite: {
+          '^/api': '',
+        },
+      },
+    },
+  },
+  mockServerPreset: {port: 3003},
   webpackPreset: {cssProcessors: {less: true}},
   development: {
-    apiProxy,
     clientGlobalVar: {
-      apiMaps: {'/api': '/api'},
+      apiPrefix: '',
+      staticPrefix: 'http://localhost:3003/',
     },
   },
   production: {
     clientPublicPath: '/client/',
     clientGlobalVar: {
-      apiMaps: {'/api': 'http://192.168.0.232:8000'},
+      apiPrefix: '',
+      staticPrefix: '/client/',
     },
   },
 };
