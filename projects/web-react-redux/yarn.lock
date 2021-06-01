@@ -1014,10 +1014,10 @@
     babel-plugin-root-import "~6.6.0"
     core-js "*"
 
-"@clux/core@^0.0.16":
-  version "0.0.16"
-  resolved "http://localhost:4873/@clux%2fcore/-/core-0.0.16.tgz#0cf2905881454bcdce50ef55dc80438dbb50e3a0"
-  integrity sha512-1ehXtZY35yPQNMR4NYTk2l+zxqGvgwj7WcOzDiUZHxhwby3c4x+C+sRdtqtBicAa5tRRDk295sqRzLwfATyTHw==
+"@clux/core@^0.0.17":
+  version "0.0.17"
+  resolved "http://localhost:4873/@clux%2fcore/-/core-0.0.17.tgz#9cc7edc120f55202cdadc0f033d71353e777bca0"
+  integrity sha512-+n8sxarnwHbRsqParqHYrSFt2naIcvwxrVQNVXa/auGWnSfXu1fyeKv7IsULYts9RhFyuz3HVZajCS1Pa5EcBQ==
   dependencies:
     "@babel/runtime" "~7.12.18"
 
@@ -1071,10 +1071,10 @@
     react-refresh "~0.10.0"
     stylelint "~13.13.0"
 
-"@clux/dev-utils@0.0.23":
-  version "0.0.23"
-  resolved "http://localhost:4873/@clux%2fdev-utils/-/dev-utils-0.0.23.tgz#9beca07c848ac3d02f372f8b2388ef5279018696"
-  integrity sha512-lv76kU3J1/9lqV6KpS5mwz5w1RF0ghJcDlh3scuvLvXs+zzguizin2nqP/quAqTTX7Qk+YD7imQckw7wV9goxA==
+"@clux/dev-utils@0.0.24":
+  version "0.0.24"
+  resolved "http://localhost:4873/@clux%2fdev-utils/-/dev-utils-0.0.24.tgz#0ee02062462b0eab84ce708fde6162a51a3bfcf2"
+  integrity sha512-payMpDnDY1q8tl8lSyG6rjJrrCQTjjj90u3Zg67oDixHXTbOri/srd4FgKKP876lkd+uV1yeneeEyK093i/R4A==
   dependencies:
     chalk "^4.0.0"
     commander "^6.0.0 || ^7.0.0"
@@ -1085,10 +1085,10 @@
     tsconfig-paths "*"
     typescript-json-schema "^0.46.0"
 
-"@clux/dev-webpack@~0.0.56":
-  version "0.0.56"
-  resolved "http://localhost:4873/@clux%2fdev-webpack/-/dev-webpack-0.0.56.tgz#93656135a494bd87fa23b601673185a9449cfd65"
-  integrity sha512-Iy6k4QpgXCbv+YqzAxl36XWY14YK6GP4qM07w/BiSEfpHMoMTABDN5m6+I2iJiKrB+TbQCWTNaUDRnRgjG2aqA==
+"@clux/dev-webpack@~0.0.57":
+  version "0.0.57"
+  resolved "http://localhost:4873/@clux%2fdev-webpack/-/dev-webpack-0.0.57.tgz#f297e93b26ed15cdc916c59b0f502d99d75de6ce"
+  integrity sha512-axXj1TWJyrZelQD8qrYa9+xHSVb5AMUkp/RrvfqI9pU4qTJxNAWSji1zEQUFSbF9n0IGWw5pMRUxTxT7kwm/7g==
   dependencies:
     chalk "^4.0.0"
     commander "^6.0.0 || ^7.0.0"
@@ -1114,32 +1114,32 @@
     eslint-plugin-react-hooks "~4.2.0"
     eslint-plugin-vue "~7.9.0"
 
-"@clux/react-web@~0.0.16":
-  version "0.0.16"
-  resolved "http://localhost:4873/@clux%2freact-web/-/react-web-0.0.16.tgz#a3733f398811959ff52feded46c7bc44b5448b95"
-  integrity sha512-p1t76WHPRoOn7ov4lJtV8C3YghUGqUpk7ToI6x4Ue7MZK2a/3zUVcyA2MzmyyHsOlL43fiQdvPJG2tdWVfOFKw==
+"@clux/react-web@~0.0.17":
+  version "0.0.17"
+  resolved "http://localhost:4873/@clux%2freact-web/-/react-web-0.0.17.tgz#93086dc27e9543c952b5cb59d1f64e233786220f"
+  integrity sha512-lrD3lIyfgReEkjZBVJZGI+RZbw19lutHupOiTvpLb53htB0pb5p17G1Aavtk+RbN2WB7PtXz3q09ZbxzQj1lNw==
   dependencies:
-    "@clux/core" "^0.0.16"
-    "@clux/route-browser" "^0.0.16"
+    "@clux/core" "^0.0.17"
+    "@clux/route-browser" "^0.0.17"
 
-"@clux/route-browser@^0.0.16":
-  version "0.0.16"
-  resolved "http://localhost:4873/@clux%2froute-browser/-/route-browser-0.0.16.tgz#7822f394b66682807cb441e97597c5e1908f3749"
-  integrity sha512-+rskFiYkQYU6S+FSTtAbbg7/6pJFxud006CBl+rzTHSfctmkuN/5CIQNmkq9bK35vfH8ZU3S1a/9qlgWcFOwqw==
+"@clux/route-browser@^0.0.17":
+  version "0.0.17"
+  resolved "http://localhost:4873/@clux%2froute-browser/-/route-browser-0.0.17.tgz#2a9cc9249451ced0d32f030230e7b71bc434c5d8"
+  integrity sha512-rzZGW8Ij+Y2HM37nNVYww/XPROiR0hGFdIgKzhHSAAXUFFUHcKTS0mbIj+3y2XTtGzakSkuunv51y5CxmlUkzg==
   dependencies:
     "@babel/runtime" "~7.12.18"
-    "@clux/core" "^0.0.16"
-    "@clux/route" "^0.0.16"
+    "@clux/core" "^0.0.17"
+    "@clux/route" "^0.0.17"
     "@types/history" "~4.7.7"
     history "~4.10.1"
 
-"@clux/route@^0.0.16":
-  version "0.0.16"
-  resolved "http://localhost:4873/@clux%2froute/-/route-0.0.16.tgz#62b3921cee4be63e7794b38e2db6d2a3caf7ed58"
-  integrity sha512-TGbJ7ztcS9x0DQfUbjqijlf1zBjRq/jRnzSKG35XtP3crI83wtSrzogquvSTe7+NGt1dN2X0N1Q/ns1lhdTXMA==
+"@clux/route@^0.0.17":
+  version "0.0.17"
+  resolved "http://localhost:4873/@clux%2froute/-/route-0.0.17.tgz#b2ef6e823f6b5cafd40cd2c1abe4ceedf6e87359"
+  integrity sha512-U5k4v1JSfaxFxz5p5KCPeM+BY+BUHjGuuJChSYUt3z/tqHTHTdUu/QfRaxq6VsEvtwzuSn1Cw54mPinq6hDL6Q==
   dependencies:
     "@babel/runtime" "~7.12.18"
-    "@clux/core" "^0.0.16"
+    "@clux/core" "^0.0.17"
 
 "@clux/stylelint-config-recommended@~0.0.1":
   version "0.0.1"
