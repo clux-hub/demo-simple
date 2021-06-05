@@ -6,3 +6,4 @@ dist/
 .eslintcache
 env/local/*
 !env/local/readme.txt
+tsconfig.tsbuildinfo

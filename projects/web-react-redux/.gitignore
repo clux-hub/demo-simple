@@ -4,5 +4,6 @@ dist/
 .DS_Store
 .stylelintcache
 .eslintcache
+tsconfig.tsbuildinfo
 env/local/*
 !env/local/readme.txt
