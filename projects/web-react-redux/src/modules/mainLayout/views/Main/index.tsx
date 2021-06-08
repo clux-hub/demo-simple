@@ -1,14 +1,14 @@
 import React from 'react';
-import {RouteState, APPState, LoadView} from '@/APP';
+import {RouteParams, APPState, LoadView} from '@/Global';
 import {connectRedux} from '@clux/react-web';
-import NavBar from '@/components/NavBar';
+import NavBar from '@stage/components/NavBar';
 import TabBar from '../TabBar';
 import styles from './index.module.less';
 
 const Photo = LoadView('photo', 'main');
 
 export interface StoreProps {
-  subView: RouteState['params'];
+  subView: RouteParams;
 }
 export interface OwnerProps {}
 export interface DispatchProps {}

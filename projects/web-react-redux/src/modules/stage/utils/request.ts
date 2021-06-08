@@ -1,5 +1,5 @@
 import axios, {AxiosError, AxiosResponse} from 'axios';
-import {apiPrefix} from '@/APP';
+import {ApiPrefix} from '@/Global';
 import {CustomError} from './errors';
 
 export interface APIRequest<Req, Res> {
@@ -10,7 +10,7 @@ export interface APIRequest<Req, Res> {
 const instance = axios.create();
 
 instance.interceptors.request.use((req) => {
-  return {...req, url: apiPrefix + req.url};
+  return {...req, url: ApiPrefix + req.url};
 });
 
 instance.interceptors.response.use(

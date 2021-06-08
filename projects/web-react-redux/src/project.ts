@@ -1,16 +1,7 @@
 import {createRouteModule, DeepPartial} from '@clux/react-web';
+import {RouteParams} from '@/Global';
 import * as StageModule from './modules/stage';
-import photoDefaultRouteParams from './modules/photo/meta';
 
-const defaultRouteParams = {
-  route: {},
-  stage: {},
-  mainLayout: {},
-  comment: {},
-  photo: photoDefaultRouteParams,
-};
-
-type RouteParams = typeof defaultRouteParams;
 type PartialRouteParams = DeepPartial<RouteParams>;
 
 const pagenameMap = {
@@ -27,7 +18,7 @@ const pagenameMap = {
 
 // 定义模块的加载方案，同步或者异步均可
 export const moduleGetter = {
-  route: () => createRouteModule(defaultRouteParams, pagenameMap),
+  route: () => createRouteModule(pagenameMap),
   stage: () => {
     return StageModule;
   },

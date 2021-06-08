@@ -1,4 +1,4 @@
-import request, {APIRequest} from '@/common/request';
+import request, {APIRequest} from '../utils/request';
 
 export interface CurUser {
   id: string;

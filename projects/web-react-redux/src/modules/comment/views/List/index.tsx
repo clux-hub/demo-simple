@@ -1,7 +1,7 @@
 import React, {useCallback} from 'react';
 import {connectRedux, Dispatch} from '@clux/react-web';
-import {APPState, staticPrefix, Modules} from '@/APP';
-import SimplePagination from '@/components/SimplePagination';
+import {APPState, StaticPrefix, Modules} from '@/Global';
+import SimplePagination from '@stage/components/SimplePagination';
 import {ListItem, ListSearch, ListSummary} from '../../entity';
 import styles from './index.module.less';
 
@@ -32,7 +32,7 @@ const Component: React.FC<StoreProps & DispatchProps> = ({listSearch, list, list
       <div>
         {list.map((item) => (
           <div key={item.id} className="list-item">
-            <div className="avatar" style={{backgroundImage: `url(${staticPrefix + item.avatarUrl})`}} />
+            <div className="avatar" style={{backgroundImage: `url(${StaticPrefix + item.avatarUrl})`}} />
             <div className="user">
               {item.username}
               <span className="date">{item.createdTime}</span>

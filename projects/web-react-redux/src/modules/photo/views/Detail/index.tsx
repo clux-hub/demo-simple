@@ -1,7 +1,7 @@
 import React, {useCallback, useState, useEffect} from 'react';
 import {Dispatch} from '@clux/react-web';
-import {staticPrefix, GetRouter, LoadView, Modules} from '@/APP';
-import NavBar from '@/components/NavBar';
+import {StaticPrefix, GetRouter, LoadView, Modules} from '@/Global';
+import NavBar from '@stage/components/NavBar';
 import {ItemDetail} from '../../entity';
 import styles from './index.module.less';
 
@@ -45,7 +45,7 @@ const Component: React.FC<OwnerProps> = ({itemDetail, dispatch}) => {
         <div className="iconfont icon-message" />
         <div>{itemDetail.comments}</div>
       </div>
-      <div className="content" style={{backgroundImage: `url(${staticPrefix + itemDetail.coverUrl})`}} />
+      <div className="content" style={{backgroundImage: `url(${StaticPrefix + itemDetail.coverUrl})`}} />
       {showComment && (
         <div className="comment">
           <NavBar title="评论" theme="light" onBack={toggleComment} />

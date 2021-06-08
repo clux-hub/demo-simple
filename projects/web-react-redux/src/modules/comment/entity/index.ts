@@ -1,4 +1,4 @@
-import request, {APIRequest} from '@/common/request';
+import request, {APIRequest} from '@stage/utils/request';
 
 export interface ListItem {
   id: string;

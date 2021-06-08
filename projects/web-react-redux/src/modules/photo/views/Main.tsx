@@ -1,6 +1,6 @@
 import React from 'react';
 import {Dispatch, connectRedux} from '@clux/react-web';
-import {APPState} from '@/APP';
+import {APPState} from '@/Global';
 import List from './List';
 import Detail from './Detail';
 import {ListView, ItemView, ItemDetail} from '../entity';

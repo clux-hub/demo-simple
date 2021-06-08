@@ -1,8 +1,8 @@
 import React from 'react';
 import {Provider} from 'react-redux';
 import {connectRedux, LoadingState} from '@clux/react-web';
-import {LoadView, RouteState, APPState} from '@/APP';
-import LoadingPanel from '@/components/LoadingPanel';
+import {LoadView, RouteState, APPState} from '@/Global';
+import LoadingPanel from '../components/LoadingPanel';
 import {CurUser} from '../entity';
 
 const MainLayout = LoadView('mainLayout', 'main');

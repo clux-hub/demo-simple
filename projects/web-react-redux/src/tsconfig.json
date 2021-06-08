@@ -32,6 +32,7 @@
     "esModuleInterop": true,
     "composite": true,
     "paths": {
+      "@stage/*": ["./modules/stage/*"],
       "@/*": ["./*"]
     }
   },

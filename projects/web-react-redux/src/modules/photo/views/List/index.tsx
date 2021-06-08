@@ -1,8 +1,8 @@
 import React, {useCallback} from 'react';
 import {connectRedux, Dispatch} from '@clux/react-web';
-import {APPState, staticPrefix, GetRouter} from '@/APP';
-import SimplePagination from '@/components/SimplePagination';
-import SearchBar from '@/components/SearchBar';
+import {APPState, StaticPrefix, GetRouter} from '@/Global';
+import SimplePagination from '@stage/components/SimplePagination';
+import SearchBar from '@stage/components/SearchBar';
 import {ListItem, ListSearch, ListSummary} from '../../entity';
 import styles from './index.module.less';
 
@@ -40,7 +40,7 @@ const Component: React.FC<StoreProps & DispatchProps> = ({listSearch, list, list
       <div>
         {list.map((item) => (
           <div key={item.id} className="list-item" onClick={() => onShowDetail(item.id)}>
-            <div className="list-pic" style={{backgroundImage: `url(${staticPrefix + item.coverUrl})`}}>
+            <div className="list-pic" style={{backgroundImage: `url(${StaticPrefix + item.coverUrl})`}}>
               <div className="list-title">{item.title}</div>
               <div className="props">
                 <span className="iconfont icon-location" /> {item.departure}

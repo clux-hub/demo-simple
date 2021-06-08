@@ -1,4 +1,3 @@
-import {APPState} from '@/APP';
 import {BaseModuleHandlers, BaseModuleState, effect, reducer} from '@clux/react-web';
 import {ListItem, ListSearch, ListSummary, ListView, api} from './entity';
 
@@ -9,9 +8,9 @@ export interface ModuleState extends BaseModuleState {
   listSummary?: ListSummary;
 }
 
-export class ModuleHandlers extends BaseModuleHandlers<ModuleState, APPState> {
-  constructor() {
-    super({});
+export class ModuleHandlers extends BaseModuleHandlers<ModuleState, {}> {
+  constructor(moduleName: string) {
+    super(moduleName, {});
   }
 
   @reducer

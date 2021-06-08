@@ -1,9 +1,16 @@
-import {APPState} from '@/APP';
 import {BaseModuleHandlers, BaseModuleState, effect, reducer} from '@clux/react-web';
 import fastEqual from 'fast-deep-equal';
 import {ItemDetail, ListItem, ListSearch, ListSummary, RouteParams, ListView, ItemView, api} from './entity';
 
-import defaultRouteParams from './meta';
+export const defaultRouteParams: RouteParams = {
+  listSearch$: {
+    pageCurrent: 1,
+    keyword: null,
+  },
+  listView: '',
+  itemId$: '',
+  itemView: '',
+};
 
 export interface ModuleState extends BaseModuleState, RouteParams {
   listSearch?: ListSearch;
@@ -13,9 +20,9 @@ export interface ModuleState extends BaseModuleState, RouteParams {
   itemDetail?: ItemDetail;
 }
 
-export class ModuleHandlers extends BaseModuleHandlers<ModuleState, APPState> {
-  constructor() {
-    super({
+export class ModuleHandlers extends BaseModuleHandlers<ModuleState, {}> {
+  constructor(moduleName: string) {
+    super(moduleName, {
       ...defaultRouteParams,
     });
   }

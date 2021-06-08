@@ -1,6 +1,6 @@
 import React from 'react';
 import {connectRedux} from '@clux/react-web';
-import {RouteState, APPState} from '@/APP';
+import {RouteState, APPState} from '@/Global';
 import styles from './index.module.less';
 
 interface StoreProps {

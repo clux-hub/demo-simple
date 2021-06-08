@@ -12,18 +12,21 @@ module.exports = {
     },
   },
   mockServerPreset: {port: 3003},
-  webpackPreset: {cssProcessors: {less: true}},
+  webpackPreset: {
+    cssProcessors: {less: true},
+    resolveAlias: {'@stage': './src/modules/stage'},
+  },
   development: {
     clientGlobalVar: {
-      apiPrefix: '',
-      staticPrefix: 'http://localhost:3003/',
+      ApiPrefix: '',
+      StaticPrefix: 'http://localhost:3003/',
     },
   },
   production: {
     clientPublicPath: '/client/',
     clientGlobalVar: {
-      apiPrefix: '',
-      staticPrefix: '/client/',
+      ApiPrefix: '',
+      StaticPrefix: '/client/',
     },
   },
 };
