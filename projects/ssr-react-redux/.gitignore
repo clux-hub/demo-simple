@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.stylelintcache
+.eslintcache
+tsconfig.tsbuildinfo
+env/local/*
+!env/local/readme.txt

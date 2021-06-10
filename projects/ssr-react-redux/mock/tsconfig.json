@@ -1,0 +1,18 @@
+{
+  "extends": "../src/tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["es2018"],
+    "emitDeclarationOnly": false,
+    "composite": false,
+    "types": ["node"],
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "paths": {
+      "@mock/*": ["./src/*"],
+      "@/*": ["../src/*"]
+    }
+  },
+  "include": ["./", "../src/"],
+  "exclude": []
+}

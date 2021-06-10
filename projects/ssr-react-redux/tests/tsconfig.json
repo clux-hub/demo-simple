@@ -1,0 +1,16 @@
+{
+  "extends": "../src/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "emitDeclarationOnly": false,
+    "composite": false,
+    "types": ["../typings/assets", "jest", "node"],
+    "paths": {
+      "@tests/*": ["./*"],
+      "@/*": ["../src/*"]
+    }
+  },
+  "references": [{"path": "../src"}],
+  "include": ["./"],
+  "exclude": []
+}

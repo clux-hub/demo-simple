@@ -1,0 +1,44 @@
+:global {
+  :local(.root) {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .list-item {
+      font-size: 26px;
+      border-bottom: 2px solid #ddd;
+      line-height: 1.5;
+      padding: 30px 20px 28px 130px;
+      position: relative;
+    }
+    .avatar {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      left: 20px;
+      background-size: cover;
+      display: block;
+      border-radius: 80px;
+      background-position: center center;
+    }
+    .content {
+      padding-top: 6px;
+      max-height: 4.5em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .user {
+      font-size: 26px;
+      color: #009cff;
+
+      .date {
+        font-size: 24px;
+        padding-right: 5px;
+        float: right;
+        color: #999;
+      }
+    }
+    .comp-SimplePagination {
+      background-color: #fff;
+    }
+  }
+}
