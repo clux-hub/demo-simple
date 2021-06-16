@@ -1,12 +1,9 @@
 import {createApp, createVuex} from '@clux/vue-web';
-import './APP';
-import {moduleGetter} from './project';
-import '@/assets/css/global.module.less';
+import {moduleGetter} from './Project';
 
 createApp(moduleGetter)
-  .useStore(createVuex({}))
-  .render({id: 'root'})
-  .run()
+  .useStore(createVuex())
+  .render()
   .then(() => {
     const initLoading = document.getElementById('g-init-loading');
     if (initLoading) {

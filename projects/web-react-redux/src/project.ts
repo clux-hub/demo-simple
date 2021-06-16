@@ -1,6 +1,7 @@
 import {createRouteModule, DeepPartial} from '@clux/react-web';
 import {RouteParams} from '@/Global';
 import * as StageModule from './modules/stage';
+import * as MainLayoutModule from './modules/mainLayout';
 
 type PartialRouteParams = DeepPartial<RouteParams>;
 
@@ -23,7 +24,7 @@ export const moduleGetter = {
     return StageModule;
   },
   mainLayout: () => {
-    return import('./modules/mainLayout');
+    return MainLayoutModule;
   },
   photo: () => {
     return import('./modules/photo');

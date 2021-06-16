@@ -196,39 +196,34 @@
         "signature": "db6ca7a40a1c61e910f5ff9b9f06f785601c4b352ecbf98b5c1823b9bde2a2f2",
         "affectsGlobalScope": false
       },
-      "../node_modules/@clux/core/types/actions.d.ts": {
-        "version": "9755003a9e564ceffb35ac2f76efa982e99bd3b46b5723d0892db3b8fdfe3e6e",
-        "signature": "9755003a9e564ceffb35ac2f76efa982e99bd3b46b5723d0892db3b8fdfe3e6e",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@clux/core/types/sprite.d.ts": {
         "version": "2063e129d659a3a209b2433941017db9190456702c99cc4d8c4f2ad115d3a3c5",
         "signature": "2063e129d659a3a209b2433941017db9190456702c99cc4d8c4f2ad115d3a3c5",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/core/types/basic.d.ts": {
-        "version": "7fdbf66a1bc9db2cf98930635d291f35402f0206a3f59b0120c310c25d95b38e",
-        "signature": "7fdbf66a1bc9db2cf98930635d291f35402f0206a3f59b0120c310c25d95b38e",
+        "version": "a87ac2b44613868133bf809e278fa703b9785af250050679c524e420cb48961a",
+        "signature": "a87ac2b44613868133bf809e278fa703b9785af250050679c524e420cb48961a",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/core/types/store.d.ts": {
-        "version": "8034f315011bb4de31d897bf697099730e530b62481587d7d6b42f7ec12d922c",
-        "signature": "8034f315011bb4de31d897bf697099730e530b62481587d7d6b42f7ec12d922c",
+        "version": "aafe452c43c95ad4bddf48f425bb458421a40b0594a932d740049c80cd21c51b",
+        "signature": "aafe452c43c95ad4bddf48f425bb458421a40b0594a932d740049c80cd21c51b",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/core/types/inject.d.ts": {
-        "version": "4f2072a1db362ce6d69cc6bc2c0d0b438d9583431bb93354bab58026d071c70b",
-        "signature": "4f2072a1db362ce6d69cc6bc2c0d0b438d9583431bb93354bab58026d071c70b",
+        "version": "3f8ff7232ce9d09efca4c1adcb873ba983a16e813a4f8a1e64ae030deb5b25c5",
+        "signature": "3f8ff7232ce9d09efca4c1adcb873ba983a16e813a4f8a1e64ae030deb5b25c5",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/core/types/render.d.ts": {
-        "version": "db97fbcdc07a48fe93bf2ab87dc000b89f2ba40d2a9b2292e8d923d2a0b18225",
-        "signature": "db97fbcdc07a48fe93bf2ab87dc000b89f2ba40d2a9b2292e8d923d2a0b18225",
+        "version": "ef55378b40862af4cd4da24ba737f0895e48c09c114fb572a50f715eb9041c59",
+        "signature": "ef55378b40862af4cd4da24ba737f0895e48c09c114fb572a50f715eb9041c59",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/core/env/global.d.ts": {
-        "version": "a5484f5294d2db43d6fa755e6dbc549e53fd53fb85eea2a2d391b9f40c0b66ed",
-        "signature": "a5484f5294d2db43d6fa755e6dbc549e53fd53fb85eea2a2d391b9f40c0b66ed",
+        "version": "5b5b1de5a9536ba4c8d1010441e134b04957b3e2420c96a4abdbcb9f89da8098",
+        "signature": "5b5b1de5a9536ba4c8d1010441e134b04957b3e2420c96a4abdbcb9f89da8098",
         "affectsGlobalScope": true
       },
       "../node_modules/@clux/core/types/env.d.ts": {
@@ -237,28 +232,33 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/core/types/index.d.ts": {
-        "version": "43e9ee0e696028348fc509608ee5fa434b0e05ebbb5d2c5f0cad7f42728e79c3",
-        "signature": "43e9ee0e696028348fc509608ee5fa434b0e05ebbb5d2c5f0cad7f42728e79c3",
+        "version": "023e6725cdd0aeae64da8d313ba4ebd52b3c2b293b3f7f7c0c43eaa342631bf7",
+        "signature": "023e6725cdd0aeae64da8d313ba4ebd52b3c2b293b3f7f7c0c43eaa342631bf7",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/route/types/basic.d.ts": {
-        "version": "997a8b1f35903829aa9b69d13925dead069798a18fdd6d50c3ce14013aa81eb7",
-        "signature": "997a8b1f35903829aa9b69d13925dead069798a18fdd6d50c3ce14013aa81eb7",
+        "version": "105b234f743761f6cea66c493d493e0e717dc0323830e2feb78f61edf934fc00",
+        "signature": "105b234f743761f6cea66c493d493e0e717dc0323830e2feb78f61edf934fc00",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@clux/route/types/history.d.ts": {
+        "version": "af6f22cff9c31668a1b2570cc6ca1bc4dfe9254869ee3959b97ca1b0609ccd05",
+        "signature": "af6f22cff9c31668a1b2570cc6ca1bc4dfe9254869ee3959b97ca1b0609ccd05",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/route/types/transform.d.ts": {
-        "version": "60b7a4f90acaa4bf8148bec4b8bde519ca215375f002a2888e3575c01678a647",
-        "signature": "60b7a4f90acaa4bf8148bec4b8bde519ca215375f002a2888e3575c01678a647",
+        "version": "d6ee364409aa138775b40b70a6d2f702a36a7c8c197357c3f2a051f3baff4b59",
+        "signature": "d6ee364409aa138775b40b70a6d2f702a36a7c8c197357c3f2a051f3baff4b59",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/route/types/module.d.ts": {
-        "version": "ff3dec2e618db954e8feb5f76b4379ee6ff8405ab54c113dcb78e5971562ffb8",
-        "signature": "ff3dec2e618db954e8feb5f76b4379ee6ff8405ab54c113dcb78e5971562ffb8",
+        "version": "901cde0a51e619abb18634a79bb91a1a8eb19f68cb422f30aeb9cde4eeda5893",
+        "signature": "901cde0a51e619abb18634a79bb91a1a8eb19f68cb422f30aeb9cde4eeda5893",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/route/types/index.d.ts": {
-        "version": "7d7e671838c97bc6c76ad58619115c45254d02a5d20471a82baf42b7022f0473",
-        "signature": "7d7e671838c97bc6c76ad58619115c45254d02a5d20471a82baf42b7022f0473",
+        "version": "12fca881638b6420f05d0b0dea51a760bec38627f80afb4aee27fe39f9668ffe",
+        "signature": "12fca881638b6420f05d0b0dea51a760bec38627f80afb4aee27fe39f9668ffe",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/history/DOMUtils.d.ts": {
@@ -297,14 +297,19 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/route-browser/types/index.d.ts": {
-        "version": "dd3ac4084b53a3ab4db5876da61756501326fc982b3c54f1a64f64b97da2b3ec",
-        "signature": "dd3ac4084b53a3ab4db5876da61756501326fc982b3c54f1a64f64b97da2b3ec",
+        "version": "b8f5d5ba6fcd4677e3cdce40932941b65fc77fc31541dd24e078460afb5ae85b",
+        "signature": "b8f5d5ba6fcd4677e3cdce40932941b65fc77fc31541dd24e078460afb5ae85b",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/vue-web/types/loadView.d.ts": {
-        "version": "69162dc53e0439c4094f021d1d046df143a29d0aeb37ff60feb0298834a673ee",
-        "signature": "69162dc53e0439c4094f021d1d046df143a29d0aeb37ff60feb0298834a673ee",
+        "version": "fc516b708900fd1585e08978ea1df9d28025fd33db60cbe7a55b7c57f9a989ef",
+        "signature": "fc516b708900fd1585e08978ea1df9d28025fd33db60cbe7a55b7c57f9a989ef",
         "affectsGlobalScope": false
+      },
+      "../node_modules/@clux/core-vuex/env/global.d.ts": {
+        "version": "ba1683fe31c8158e3d55a0c52e016cdf662975c4b09d357c0fd9b3d1c5f0249b",
+        "signature": "ba1683fe31c8158e3d55a0c52e016cdf662975c4b09d357c0fd9b3d1c5f0249b",
+        "affectsGlobalScope": true
       },
       "../node_modules/vuex/types/vue.d.ts": {
         "version": "937646ec622c4d2173c5e952c54279c86822512017ee7450cbd2b73880aa23d3",
@@ -326,79 +331,154 @@
         "signature": "a3e08128b5e74ad398818230f379c86636982e730ea0a0a0859628b36eec31b5",
         "affectsGlobalScope": false
       },
-      "../node_modules/@clux/core/types/lib/with-vuex.d.ts": {
-        "version": "070861ba729324a6933de133f7f9c80c8e4534464e0d5f77bc018436100fb59f",
-        "signature": "070861ba729324a6933de133f7f9c80c8e4534464e0d5f77bc018436100fb59f",
+      "../node_modules/@clux/core-vuex/types/index.d.ts": {
+        "version": "ad8851393b9fc092785307527acf94df6a99334bf064ed91dc5984e74fa1d019",
+        "signature": "ad8851393b9fc092785307527acf94df6a99334bf064ed91dc5984e74fa1d019",
         "affectsGlobalScope": false
       },
       "../node_modules/@clux/vue-web/types/index.d.ts": {
-        "version": "2bf8c7b1081bc142a0be74b44d7dce6074d6f58eca670cb08ec49ba21f39627d",
-        "signature": "2bf8c7b1081bc142a0be74b44d7dce6074d6f58eca670cb08ec49ba21f39627d",
+        "version": "a8baa990d96a8136b9eec771c73be5334be60666ccbbf93fa1b0757431a7ef5f",
+        "signature": "a8baa990d96a8136b9eec771c73be5334be60666ccbbf93fa1b0757431a7ef5f",
         "affectsGlobalScope": false
       },
-      "./modules/stage/views/Main.vue.ts": {
-        "version": "ec23c2eb151fe3180b900056902430a8d17c549cd903395c15d8214d21fd5030",
-        "signature": "3219d3102859203a57666161dbd2ce6771a0e865dd76dc20934c698e665b4374",
+      "./modules/stage/components/LoadingPanel.vue.ts": {
+        "version": "88d066fb3749b2a805e2b3a4da25210fedfb328a23380a7843962ae25673f2cc",
+        "signature": "851816981222d5e31ed4d1e6c7c2e392bf6d095f5320bfa85baefda7b186e45a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/axios/index.d.ts": {
+        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "affectsGlobalScope": false
+      },
+      "./modules/stage/utils/errors.ts": {
+        "version": "42d2476fb0b99fe8e02f22c6724c8c8b363b65e34644ed9e15e0ec9ddcd674d0",
+        "signature": "c88de3c58b23cdd76a337d1917ac0a166b366e70f6d87b5de3b7e754df32ed2c",
+        "affectsGlobalScope": false
+      },
+      "./modules/stage/utils/request.ts": {
+        "version": "36040e90c0632b4ea55c8f5bcac0dfeef9fcdd1644e7e9e7fb97670fabff8b14",
+        "signature": "97f78d3bcb961cdce3a04aaf880ea144f08f7877df9a067e86aec105fdb54512",
         "affectsGlobalScope": false
       },
       "./modules/stage/entity/index.ts": {
-        "version": "204a970f0670043e509e29651fe38de33f9af7e87a8bfd2c77bf5aff5d52d39b",
-        "signature": "2dee68489df9b064e310a4b7f5104f15e5a12c17ff90ce22f469d8c12d4a9a7a",
+        "version": "ca4ffd7be658945205c4373086a1296caffc58b9e3d2ca14bd6f7caaac989d2f",
+        "signature": "aa52372b7af121848a2857373998285c68096ca79c4f9d207f182a45cca4e057",
+        "affectsGlobalScope": false
+      },
+      "./modules/stage/views/Main.vue.ts": {
+        "version": "ccb75ec02a9bcf7cec52eb0a64b08ae4015dc298425af62e1036a8a00d0759c8",
+        "signature": "0f46e3eab153bb3d95e0718a2356a02980383dd8d1eae53c7536fb9520f95692",
         "affectsGlobalScope": false
       },
       "./modules/stage/model.ts": {
-        "version": "580bd79ca7530aa580d58627783840ef9cf2e46e3d862676393b420597446c5c",
-        "signature": "ee2380d78beba03378ff1a4cb24d664d064d7984ea5374624a91209943d1e399",
+        "version": "b37c499fec8cceff69722ba915ca4111eda8824be1edce26e480ad9768c6c7c0",
+        "signature": "37d673e5fc61412b57f331d626e12843063ea7e8ad9a52b36335cf3cc4989e03",
         "affectsGlobalScope": false
       },
       "./modules/stage/index.ts": {
-        "version": "b4fcbacb76edc83c81f8ae3b700365c6a56332f448d28b869c808df3bf7b106f",
-        "signature": "4fcac011dcbd3be652d1edfc7cb68b453e35e633bb52f97e4d2c6eb58c4c5d12",
+        "version": "dd36d3ab0a254d86832dca304ced1c150f1697f3c5d647a987413946fe959160",
+        "signature": "f41b2d9a2b19a634ea0989a60ba24e7fb5df9042504b04b35bbc2f53c20ab681",
         "affectsGlobalScope": false
       },
-      "./modules/mainLayout/views/Navigation.vue.ts": {
-        "version": "fd92d3c4e8d565fd0255733b5dd07a6c2c85507ac5976244eaa1ddc0a6cf36e9",
-        "signature": "37bacee3547cfb2d754570ddbce979c96a74474fc1bed365d7df266f779f398f",
+      "./modules/stage/components/NavBar.vue.ts": {
+        "version": "435372f094c368748dd51c0e5fec70663845ee4736462f03f0fe2d5895518cfd",
+        "signature": "194545d9a2ca9352fa5c59c71a3ed5e33a4fe0780ceb7af296579015594c69c4",
         "affectsGlobalScope": false
       },
       "./modules/mainLayout/views/TabBar.vue.ts": {
-        "version": "fd92d3c4e8d565fd0255733b5dd07a6c2c85507ac5976244eaa1ddc0a6cf36e9",
-        "signature": "37bacee3547cfb2d754570ddbce979c96a74474fc1bed365d7df266f779f398f",
+        "version": "5e768a2e7301973280abe71a3660dc55dd7b6d97a328f157c75152ef2c3399d9",
+        "signature": "21aaa321f6b39fffb344c66b451bbd464ad70c3a88f2c0c5c2db03ec3f5d6652",
         "affectsGlobalScope": false
       },
       "./modules/mainLayout/views/Main.vue.ts": {
-        "version": "d0c901e564e93600d5351c1709396fd3f48829f4773c5304d1a46aef62e4f163",
-        "signature": "37bacee3547cfb2d754570ddbce979c96a74474fc1bed365d7df266f779f398f",
+        "version": "755ed134d95690b4840671cb0e910870bf2e38cd03ca0c9f013cd3a7c154e91a",
+        "signature": "21aaa321f6b39fffb344c66b451bbd464ad70c3a88f2c0c5c2db03ec3f5d6652",
         "affectsGlobalScope": false
       },
       "./modules/mainLayout/model.ts": {
-        "version": "489196deea70762e2b95e0bd0c6d5acab9db85c020f059dc7a73c003a56f49a9",
-        "signature": "79e5b852c6ee68c28f239ad164b36ace12e128e35a9a691f68c160796d80e83a",
+        "version": "d56cee32d3cebd68fff174cdd63d1c421c4b3445ea777cf55974d147885ba795",
+        "signature": "aa21c2aa5163cbba0fbec54c154b5072e27f0ac5f08e619c68fbff4f8b5daabf",
         "affectsGlobalScope": false
       },
       "./modules/mainLayout/index.ts": {
-        "version": "8d468b3cf6783179b90983ab8d1671a88f2825924b93093f75bda16b25defa57",
-        "signature": "79197395f0854145f7acb069ae37f83f24b481622dc9ce0bacd9e12f619872d9",
+        "version": "b9c2fb3fb5a5bf3a4ad79d1fd33c232ff0df775fc854f4b3c5e23fb8b7716ede",
+        "signature": "bafdd77c745c04dd2a76eb6ca37115b9b3f87f007d3b0d05a0c9ecf228febca9",
         "affectsGlobalScope": false
       },
-      "./project.ts": {
-        "version": "ea7f7b62e95fefbc1fb713b1606a6c55e228d56c709073572d1fe3ae8d7c9571",
-        "signature": "d7c8d3ab3dc9e868e72ebd017c783551bdf0076ad3a5d64c917e31684aa2546d",
+      "../node_modules/fast-deep-equal/index.d.ts": {
+        "version": "37ffe3c12813b6a6d512f7c27b71f3388d03dafa10555ad5094cea393ed3d1f6",
+        "signature": "37ffe3c12813b6a6d512f7c27b71f3388d03dafa10555ad5094cea393ed3d1f6",
         "affectsGlobalScope": false
       },
-      "./APP.ts": {
-        "version": "d62e71f0c7b3716ab2f69374acc5ef0ea304d5806a2bcf50c3fa91bd28e05f03",
-        "signature": "c078d1c487946a866fd40c820600da1fd85f9661eab9ae4a9aa9c7ba146bf5b4",
+      "./modules/photo/entity/index.ts": {
+        "version": "2f492fec7d530adb8184b601f59999e7e5f37b13de1450e5ab2c72a75cad64bf",
+        "signature": "a3021c005610d520e8523e91048f1d9170355a09ad67eddb31ba406631bc73f8",
+        "affectsGlobalScope": false
+      },
+      "./modules/photo/model.ts": {
+        "version": "fef26c27f8f6b44001d1c1c1ca819d71d1ebe8acb4b92804d7bd917858ec0057",
+        "signature": "bc85a6afa9840fa3b44ac7f9fcaa3c96b63df53ae3c784065b7cf400e127b514",
+        "affectsGlobalScope": false
+      },
+      "./modules/stage/components/SimplePagination.vue.ts": {
+        "version": "e0288bc1159d52cce5633964871e97de1644c4d02d6a19d30190ace54afe80c6",
+        "signature": "fe0f7279b2a387e8924a79772e485502af2ddef69c13ef5653f216eaf1922023",
+        "affectsGlobalScope": false
+      },
+      "./modules/stage/components/SearchBar.vue.ts": {
+        "version": "ac968d0ffa210242b61850e224ddd5609b42ded565db06da2944bac8da66e722",
+        "signature": "211efae1e9435e751494e0581012a2765a434f61e07411a044a4a6ceec03e293",
+        "affectsGlobalScope": false
+      },
+      "./modules/photo/views/List.vue.ts": {
+        "version": "bf120d2ab69a43f4a296f31dfd2d9fecfe85f47d048252f209bc50fb4dc1a0da",
+        "signature": "c746d0f03d28de184a4c686e9eaf46ac4edb269ab524284a02f168f7a428d8bb",
+        "affectsGlobalScope": false
+      },
+      "./modules/photo/views/Main.vue.ts": {
+        "version": "e38a0e2bdc930ab5c4f1aec53013563deae50a7088871d21f1f1bc45c1649089",
+        "signature": "771c41f09913b4cdb79ffd8162e6cb9ba3cd2476b14506cf2952a73c3ff8afe6",
+        "affectsGlobalScope": false
+      },
+      "./modules/photo/index.ts": {
+        "version": "26e6827d46a5f47d21e1baca92fb8647ebcce144f10c60d9c8551bd846b7c638",
+        "signature": "c5a8f5577d947dd323b14706520d6090ce302c014f018d38581c4602e5adee5f",
+        "affectsGlobalScope": false
+      },
+      "./modules/comment/entity/index.ts": {
+        "version": "1166e1a06e3b4a1fe892cdee9824d6a1482bd8d67b21b1ea8c96a0e0113ed8e3",
+        "signature": "d5c6301a3a01f2e3b5b76e78037a7c3e0d397f7124f0eeebf991278063259e18",
+        "affectsGlobalScope": false
+      },
+      "./modules/comment/model.ts": {
+        "version": "ec6bb23e32491a40db8f0a168deda6a11dbfb349fd31af0f899699b013ad998d",
+        "signature": "bf34ad0c60058e557c16898b316120202a160d9285a1c3646a3c6dc611306709",
+        "affectsGlobalScope": false
+      },
+      "./modules/comment/views/Main.vue.ts": {
+        "version": "2d302c50c3204fc077bf34dab5ce975acf572ffd204df41912215fc22f151525",
+        "signature": "37bacee3547cfb2d754570ddbce979c96a74474fc1bed365d7df266f779f398f",
+        "affectsGlobalScope": false
+      },
+      "./modules/comment/index.ts": {
+        "version": "274ede918960bdc523325b5886d05d23a579f08a8413f9c3b13f1552589537b3",
+        "signature": "5f54082e4b00121b846cf641bb3c927f80cc2b06f21fb7b2f3e5e36c2c040f62",
+        "affectsGlobalScope": false
+      },
+      "./Project.ts": {
+        "version": "f2ef5ed85c8dafef1d6af3bfef02d0e3f69d9aac1fcb517db4730960c820ae99",
+        "signature": "1b40dd8f3a30238ebe4c01eb147eaddbe9eb3420a6b8e2f8badca541fa503abb",
+        "affectsGlobalScope": false
+      },
+      "./Global.ts": {
+        "version": "712fe4efaadc3becbe87414dd9414c0a6e04df2e5ddd37fd592d215a24428e6c",
+        "signature": "cdeba78cbbc03d0021e7bacdd31a12ae1c807511311f48ccd7bba5c7aa5ba85b",
         "affectsGlobalScope": false
       },
       "./index.ts": {
-        "version": "4d1da39cf2e5a05364e302a06dffbaa20df3f311ae77e35770ac50919b22ba29",
-        "signature": "e78df9f8e5c072d8a23cbb2fbc0fe79790328ea3c54d8846aa4fda212b6b0017",
-        "affectsGlobalScope": false
-      },
-      "./components/HelloWorld.vue.ts": {
-        "version": "03aaf3e9417320b76afdda4352699915a4328f65539cdfaa7aa582d33c1896a0",
-        "signature": "ad78583aef17fa6b904551d516d9ab03124f6e1c642e66ab77977b80ac46dece",
+        "version": "b40d45841260c6e1a4d5d896111bb8b490d2de845598aa00c07d3fa56a671646",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
       "../typings/assets.d.ts": {
@@ -445,6 +525,9 @@
       "esModuleInterop": true,
       "composite": true,
       "paths": {
+        "@stage/*": [
+          "./modules/stage/*"
+        ],
         "@/*": [
           "./*"
         ]
@@ -458,6 +541,12 @@
       "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "../node_modules/@babel/types/lib/index.d.ts"
       ],
+      "../node_modules/@clux/core-vuex/types/index.d.ts": [
+        "../node_modules/@clux/core-vuex/env/global.d.ts",
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/vue/dist/vue.d.ts",
+        "../node_modules/vuex/types/index.d.ts"
+      ],
       "../node_modules/@clux/core/types/basic.d.ts": [
         "../node_modules/@clux/core/types/sprite.d.ts"
       ],
@@ -465,7 +554,6 @@
         "../node_modules/@clux/core/env/global.d.ts"
       ],
       "../node_modules/@clux/core/types/index.d.ts": [
-        "../node_modules/@clux/core/types/actions.d.ts",
         "../node_modules/@clux/core/types/basic.d.ts",
         "../node_modules/@clux/core/types/env.d.ts",
         "../node_modules/@clux/core/types/inject.d.ts",
@@ -475,12 +563,6 @@
       ],
       "../node_modules/@clux/core/types/inject.d.ts": [
         "../node_modules/@clux/core/types/basic.d.ts"
-      ],
-      "../node_modules/@clux/core/types/lib/with-vuex.d.ts": [
-        "../node_modules/@clux/core/types/basic.d.ts",
-        "../node_modules/@clux/core/types/store.d.ts",
-        "../node_modules/vue/dist/vue.d.ts",
-        "../node_modules/vuex/types/index.d.ts"
       ],
       "../node_modules/@clux/core/types/render.d.ts": [
         "../node_modules/@clux/core/types/basic.d.ts",
@@ -493,8 +575,12 @@
         "../node_modules/@clux/route/types/index.d.ts",
         "../node_modules/@types/history/index.d.ts"
       ],
+      "../node_modules/@clux/route/types/history.d.ts": [
+        "../node_modules/@clux/route/types/basic.d.ts"
+      ],
       "../node_modules/@clux/route/types/index.d.ts": [
         "../node_modules/@clux/route/types/basic.d.ts",
+        "../node_modules/@clux/route/types/history.d.ts",
         "../node_modules/@clux/route/types/module.d.ts",
         "../node_modules/@clux/route/types/transform.d.ts"
       ],
@@ -510,8 +596,8 @@
         "../node_modules/@clux/vue-web/env/global.d.ts"
       ],
       "../node_modules/@clux/vue-web/types/index.d.ts": [
+        "../node_modules/@clux/core-vuex/types/index.d.ts",
         "../node_modules/@clux/core/types/index.d.ts",
-        "../node_modules/@clux/core/types/lib/with-vuex.d.ts",
         "../node_modules/@clux/route-browser/types/index.d.ts",
         "../node_modules/@clux/route/types/index.d.ts",
         "../node_modules/@clux/vue-web/types/env.d.ts",
@@ -586,22 +672,40 @@
         "../node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
         "../node_modules/vue/dist/vue.d.ts",
         "../node_modules/vuex/types/index.d.ts",
-        "./APP.ts"
+        "./Global.ts"
       ],
-      "./APP.ts": [
+      "./Global.ts": [
         "../node_modules/@clux/vue-web/types/index.d.ts",
         "../node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
         "../node_modules/vuex/types/vue.d.ts",
-        "./project.ts"
+        "./Project.ts"
       ],
-      "./components/HelloWorld.vue.ts": [
-        "../node_modules/vue/dist/vue.d.ts"
+      "./Project.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./Global.ts",
+        "./modules/comment/index.ts",
+        "./modules/mainLayout/index.ts",
+        "./modules/photo/index.ts",
+        "./modules/stage/index.ts"
       ],
       "./index.ts": [
         "../node_modules/@clux/vue-web/types/index.d.ts",
-        "../typings/assets.d.ts",
-        "./APP.ts",
-        "./project.ts"
+        "./Project.ts"
+      ],
+      "./modules/comment/entity/index.ts": [
+        "./modules/stage/utils/request.ts"
+      ],
+      "./modules/comment/index.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./modules/comment/model.ts",
+        "./modules/comment/views/Main.vue.ts"
+      ],
+      "./modules/comment/model.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./modules/comment/entity/index.ts"
+      ],
+      "./modules/comment/views/Main.vue.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts"
       ],
       "./modules/mainLayout/index.ts": [
         "../node_modules/@clux/vue-web/types/index.d.ts",
@@ -609,19 +713,58 @@
         "./modules/mainLayout/views/Main.vue.ts"
       ],
       "./modules/mainLayout/model.ts": [
-        "../node_modules/@clux/vue-web/types/index.d.ts",
-        "./APP.ts"
+        "../node_modules/@clux/vue-web/types/index.d.ts"
       ],
       "./modules/mainLayout/views/Main.vue.ts": [
-        "../node_modules/vue/dist/vue.d.ts",
-        "./modules/mainLayout/views/Navigation.vue.ts",
-        "./modules/mainLayout/views/TabBar.vue.ts"
-      ],
-      "./modules/mainLayout/views/Navigation.vue.ts": [
-        "../node_modules/vue/dist/vue.d.ts"
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./Global.ts",
+        "./modules/mainLayout/views/TabBar.vue.ts",
+        "./modules/stage/components/NavBar.vue.ts"
       ],
       "./modules/mainLayout/views/TabBar.vue.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./Global.ts"
+      ],
+      "./modules/photo/entity/index.ts": [
+        "./modules/stage/utils/request.ts"
+      ],
+      "./modules/photo/index.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./modules/photo/model.ts",
+        "./modules/photo/views/Main.vue.ts"
+      ],
+      "./modules/photo/model.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "../node_modules/fast-deep-equal/index.d.ts",
+        "./modules/photo/entity/index.ts"
+      ],
+      "./modules/photo/views/List.vue.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./Global.ts",
+        "./modules/photo/entity/index.ts",
+        "./modules/stage/components/SearchBar.vue.ts",
+        "./modules/stage/components/SimplePagination.vue.ts"
+      ],
+      "./modules/photo/views/Main.vue.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./modules/photo/entity/index.ts",
+        "./modules/photo/views/List.vue.ts"
+      ],
+      "./modules/stage/components/LoadingPanel.vue.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
         "../node_modules/vue/dist/vue.d.ts"
+      ],
+      "./modules/stage/components/NavBar.vue.ts": [
+        "../node_modules/vue/dist/vue.d.ts"
+      ],
+      "./modules/stage/components/SearchBar.vue.ts": [
+        "../node_modules/vue/dist/vue.d.ts"
+      ],
+      "./modules/stage/components/SimplePagination.vue.ts": [
+        "../node_modules/vue/dist/vue.d.ts"
+      ],
+      "./modules/stage/entity/index.ts": [
+        "./modules/stage/utils/request.ts"
       ],
       "./modules/stage/index.ts": [
         "../node_modules/@clux/vue-web/types/index.d.ts",
@@ -630,17 +773,19 @@
       ],
       "./modules/stage/model.ts": [
         "../node_modules/@clux/vue-web/types/index.d.ts",
-        "./APP.ts",
         "./modules/stage/entity/index.ts"
       ],
-      "./modules/stage/views/Main.vue.ts": [
-        "../node_modules/vue/dist/vue.d.ts",
-        "./APP.ts"
+      "./modules/stage/utils/request.ts": [
+        "../node_modules/axios/index.d.ts",
+        "./Global.ts",
+        "./modules/stage/utils/errors.ts"
       ],
-      "./project.ts": [
+      "./modules/stage/views/Main.vue.ts": [
         "../node_modules/@clux/vue-web/types/index.d.ts",
-        "./modules/mainLayout/index.ts",
-        "./modules/stage/index.ts"
+        "../typings/assets.d.ts",
+        "./Global.ts",
+        "./modules/stage/components/LoadingPanel.vue.ts",
+        "./modules/stage/entity/index.ts"
       ],
       "../typings/assets.d.ts": [
         "../node_modules/vue/dist/vue.d.ts"
@@ -650,6 +795,12 @@
       "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "../node_modules/@babel/types/lib/index.d.ts"
       ],
+      "../node_modules/@clux/core-vuex/types/index.d.ts": [
+        "../node_modules/@clux/core-vuex/env/global.d.ts",
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/vue/dist/vue.d.ts",
+        "../node_modules/vuex/types/index.d.ts"
+      ],
       "../node_modules/@clux/core/types/basic.d.ts": [
         "../node_modules/@clux/core/types/sprite.d.ts"
       ],
@@ -657,7 +808,6 @@
         "../node_modules/@clux/core/env/global.d.ts"
       ],
       "../node_modules/@clux/core/types/index.d.ts": [
-        "../node_modules/@clux/core/types/actions.d.ts",
         "../node_modules/@clux/core/types/basic.d.ts",
         "../node_modules/@clux/core/types/env.d.ts",
         "../node_modules/@clux/core/types/inject.d.ts",
@@ -667,12 +817,6 @@
       ],
       "../node_modules/@clux/core/types/inject.d.ts": [
         "../node_modules/@clux/core/types/basic.d.ts"
-      ],
-      "../node_modules/@clux/core/types/lib/with-vuex.d.ts": [
-        "../node_modules/@clux/core/types/basic.d.ts",
-        "../node_modules/@clux/core/types/store.d.ts",
-        "../node_modules/vue/dist/vue.d.ts",
-        "../node_modules/vuex/types/index.d.ts"
       ],
       "../node_modules/@clux/core/types/render.d.ts": [
         "../node_modules/@clux/core/types/basic.d.ts",
@@ -685,8 +829,12 @@
         "../node_modules/@clux/route/types/index.d.ts",
         "../node_modules/@types/history/index.d.ts"
       ],
+      "../node_modules/@clux/route/types/history.d.ts": [
+        "../node_modules/@clux/route/types/basic.d.ts"
+      ],
       "../node_modules/@clux/route/types/index.d.ts": [
         "../node_modules/@clux/route/types/basic.d.ts",
+        "../node_modules/@clux/route/types/history.d.ts",
         "../node_modules/@clux/route/types/module.d.ts",
         "../node_modules/@clux/route/types/transform.d.ts"
       ],
@@ -702,12 +850,12 @@
         "../node_modules/@clux/vue-web/env/global.d.ts"
       ],
       "../node_modules/@clux/vue-web/types/index.d.ts": [
+        "../node_modules/@clux/core-vuex/types/index.d.ts",
         "../node_modules/@clux/core/types/index.d.ts",
-        "../node_modules/@clux/core/types/lib/with-vuex.d.ts",
         "../node_modules/@clux/route-browser/types/index.d.ts",
         "../node_modules/@clux/route/types/index.d.ts",
         "../node_modules/@clux/vue-web/types/env.d.ts",
-        "../node_modules/@clux/vue-web/types/loadview.d.ts",
+        "../node_modules/@clux/vue-web/types/loadView.d.ts",
         "../node_modules/vue/dist/vue.d.ts"
       ],
       "../node_modules/@clux/vue-web/types/loadView.d.ts": [
@@ -780,58 +928,117 @@
         "../node_modules/vuex/types/index.d.ts",
         "./app.ts"
       ],
-      "./APP.ts": [
+      "./Global.ts": [
         "../node_modules/@clux/core/types/index.d.ts",
         "../node_modules/@clux/route-browser/types/index.d.ts",
         "../node_modules/@clux/vue-web/types/index.d.ts",
         "../node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+        "./Project.ts",
+        "./modules/comment/index.ts",
         "./modules/mainLayout/index.ts",
-        "./modules/stage/index.ts",
-        "./project.ts"
+        "./modules/photo/entity/index.ts",
+        "./modules/photo/index.ts",
+        "./modules/stage/index.ts"
       ],
-      "./components/HelloWorld.vue.ts": [
+      "./Project.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./modules/comment/index.ts",
+        "./modules/mainLayout/index.ts",
+        "./modules/photo/index.ts",
+        "./modules/stage/index.ts"
+      ],
+      "./modules/comment/entity/index.ts": [
+        "./modules/stage/utils/request.ts"
+      ],
+      "./modules/comment/index.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/vue/dist/vue.d.ts",
+        "./modules/comment/entity/index.ts",
+        "./modules/comment/model.ts"
+      ],
+      "./modules/comment/model.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./modules/comment/entity/index.ts"
+      ],
+      "./modules/comment/views/Main.vue.ts": [
         "../node_modules/vue/dist/vue.d.ts"
-      ],
-      "./index.ts": [
-        "../typings/assets.d.ts",
-        "./app.ts"
       ],
       "./modules/mainLayout/index.ts": [
         "../node_modules/@clux/core/types/index.d.ts",
         "../node_modules/vue/dist/vue.d.ts",
-        "./modules/mainLayout/model.ts"
+        "./modules/mainLayout/model.ts",
+        "./modules/photo/entity/index.ts"
       ],
       "./modules/mainLayout/model.ts": [
-        "../node_modules/@clux/vue-web/types/index.d.ts",
-        "./APP.ts"
+        "../node_modules/@clux/vue-web/types/index.d.ts"
       ],
       "./modules/mainLayout/views/Main.vue.ts": [
-        "../node_modules/vue/dist/vue.d.ts"
-      ],
-      "./modules/mainLayout/views/Navigation.vue.ts": [
-        "../node_modules/vue/dist/vue.d.ts"
+        "../node_modules/vue/dist/vue.d.ts",
+        "./Global.ts"
       ],
       "./modules/mainLayout/views/TabBar.vue.ts": [
+        "../node_modules/vue/dist/vue.d.ts",
+        "./Global.ts"
+      ],
+      "./modules/photo/entity/index.ts": [
+        "./modules/stage/utils/request.ts"
+      ],
+      "./modules/photo/index.ts": [
+        "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/vue/dist/vue.d.ts",
+        "./modules/photo/entity/index.ts",
+        "./modules/photo/model.ts"
+      ],
+      "./modules/photo/model.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
+        "./modules/photo/entity/index.ts"
+      ],
+      "./modules/photo/views/List.vue.ts": [
+        "../node_modules/vue/dist/vue.d.ts",
+        "./modules/photo/entity/index.ts"
+      ],
+      "./modules/photo/views/Main.vue.ts": [
+        "../node_modules/vue/dist/vue.d.ts",
+        "./modules/photo/entity/index.ts"
+      ],
+      "./modules/stage/components/LoadingPanel.vue.ts": [
+        "../node_modules/@clux/vue-web/types/index.d.ts",
         "../node_modules/vue/dist/vue.d.ts"
+      ],
+      "./modules/stage/components/NavBar.vue.ts": [
+        "../node_modules/vue/dist/vue.d.ts"
+      ],
+      "./modules/stage/components/SearchBar.vue.ts": [
+        "../node_modules/vue/dist/vue.d.ts"
+      ],
+      "./modules/stage/components/SimplePagination.vue.ts": [
+        "../node_modules/vue/dist/vue.d.ts"
+      ],
+      "./modules/stage/entity/index.ts": [
+        "./modules/stage/utils/request.ts"
       ],
       "./modules/stage/index.ts": [
         "../node_modules/@clux/core/types/index.d.ts",
+        "../node_modules/@clux/vue-web/types/index.d.ts",
         "../node_modules/vue/dist/vue.d.ts",
+        "./modules/photo/entity/index.ts",
+        "./modules/stage/entity/index.ts",
         "./modules/stage/model.ts"
       ],
       "./modules/stage/model.ts": [
         "../node_modules/@clux/vue-web/types/index.d.ts",
-        "./app.ts",
         "./modules/stage/entity/index.ts"
       ],
-      "./modules/stage/views/Main.vue.ts": [
-        "../node_modules/vue/dist/vue.d.ts"
+      "./modules/stage/utils/request.ts": [
+        "../node_modules/axios/index.d.ts"
       ],
-      "./project.ts": [
-        "../node_modules/@clux/core/types/index.d.ts",
+      "./modules/stage/views/Main.vue.ts": [
         "../node_modules/@clux/vue-web/types/index.d.ts",
-        "./modules/mainlayout/index.ts",
-        "./modules/stage/index.ts"
+        "../node_modules/vue/dist/vue.d.ts",
+        "../typings/assets.d.ts",
+        "./Global.ts",
+        "./modules/stage/entity/index.ts"
       ],
       "../typings/assets.d.ts": [
         "../node_modules/vue/dist/vue.d.ts"
@@ -840,18 +1047,19 @@
     "semanticDiagnosticsPerFile": [
       "../node_modules/@babel/parser/typings/babel-parser.d.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@clux/core-vuex/env/global.d.ts",
+      "../node_modules/@clux/core-vuex/types/index.d.ts",
       "../node_modules/@clux/core/env/global.d.ts",
-      "../node_modules/@clux/core/types/actions.d.ts",
       "../node_modules/@clux/core/types/basic.d.ts",
       "../node_modules/@clux/core/types/env.d.ts",
       "../node_modules/@clux/core/types/index.d.ts",
       "../node_modules/@clux/core/types/inject.d.ts",
-      "../node_modules/@clux/core/types/lib/with-vuex.d.ts",
       "../node_modules/@clux/core/types/render.d.ts",
       "../node_modules/@clux/core/types/sprite.d.ts",
       "../node_modules/@clux/core/types/store.d.ts",
       "../node_modules/@clux/route-browser/types/index.d.ts",
       "../node_modules/@clux/route/types/basic.d.ts",
+      "../node_modules/@clux/route/types/history.d.ts",
       "../node_modules/@clux/route/types/index.d.ts",
       "../node_modules/@clux/route/types/module.d.ts",
       "../node_modules/@clux/route/types/transform.d.ts",
@@ -872,7 +1080,9 @@
       "../node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
       "../node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
       "../node_modules/@vue/shared/dist/shared.d.ts",
+      "../node_modules/axios/index.d.ts",
       "../node_modules/csstype/index.d.ts",
+      "../node_modules/fast-deep-equal/index.d.ts",
       "../node_modules/source-map/source-map.d.ts",
       "../node_modules/typescript/lib/lib.dom.d.ts",
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
@@ -905,28 +1115,73 @@
       "../node_modules/vuex/types/index.d.ts",
       "../node_modules/vuex/types/logger.d.ts",
       "../node_modules/vuex/types/vue.d.ts",
-      "./APP.ts",
-      "./components/HelloWorld.vue.ts",
+      "./Global.ts",
+      "./Project.ts",
       "./index.ts",
+      "./modules/comment/entity/index.ts",
+      "./modules/comment/index.ts",
+      "./modules/comment/model.ts",
+      "./modules/comment/views/Main.vue.ts",
       "./modules/mainLayout/index.ts",
       "./modules/mainLayout/model.ts",
       "./modules/mainLayout/views/Main.vue.ts",
-      "./modules/mainLayout/views/Navigation.vue.ts",
       "./modules/mainLayout/views/TabBar.vue.ts",
+      "./modules/photo/entity/index.ts",
+      "./modules/photo/index.ts",
+      "./modules/photo/model.ts",
+      "./modules/photo/views/List.vue.ts",
+      "./modules/photo/views/Main.vue.ts",
+      "./modules/stage/components/LoadingPanel.vue.ts",
+      "./modules/stage/components/NavBar.vue.ts",
+      "./modules/stage/components/SearchBar.vue.ts",
+      "./modules/stage/components/SimplePagination.vue.ts",
       "./modules/stage/entity/index.ts",
       "./modules/stage/index.ts",
       "./modules/stage/model.ts",
+      "./modules/stage/utils/errors.ts",
+      "./modules/stage/utils/request.ts",
       "./modules/stage/views/Main.vue.ts",
-      "./project.ts",
       "../typings/assets.d.ts"
     ],
     "affectedFilesPendingEmit": [
+      [
+        "../node_modules/@clux/core-vuex/types/index.d.ts",
+        0
+      ],
+      [
+        "../node_modules/@clux/core/types/index.d.ts",
+        0
+      ],
       [
         "../node_modules/@clux/core/types/lib/with-vuex.d.ts",
         0
       ],
       [
+        "../node_modules/@clux/core/types/render.d.ts",
+        0
+      ],
+      [
+        "../node_modules/@clux/core/types/store.d.ts",
+        0
+      ],
+      [
+        "../node_modules/@clux/route-browser/types/index.d.ts",
+        0
+      ],
+      [
+        "../node_modules/@clux/route/types/index.d.ts",
+        0
+      ],
+      [
+        "../node_modules/@clux/route/types/module.d.ts",
+        0
+      ],
+      [
         "../node_modules/@clux/vue-web/types/index.d.ts",
+        0
+      ],
+      [
+        "../node_modules/@clux/vue-web/types/loadView.d.ts",
         0
       ],
       [
@@ -950,7 +1205,27 @@
         0
       ],
       [
+        "./Global.ts",
+        0
+      ],
+      [
+        "./Project.ts",
+        0
+      ],
+      [
         "./index.ts",
+        0
+      ],
+      [
+        "./modules/comment/entity/index.ts",
+        0
+      ],
+      [
+        "./modules/comment/index.ts",
+        0
+      ],
+      [
+        "./modules/comment/model.ts",
         0
       ],
       [
@@ -966,11 +1241,47 @@
         0
       ],
       [
+        "./modules/mainLayout/views/TabBar.vue.ts",
+        0
+      ],
+      [
+        "./modules/photo/entity/index.ts",
+        0
+      ],
+      [
+        "./modules/photo/index.ts",
+        0
+      ],
+      [
+        "./modules/photo/model.ts",
+        0
+      ],
+      [
+        "./modules/photo/views/List.vue.ts",
+        0
+      ],
+      [
+        "./modules/photo/views/Main.vue.ts",
+        0
+      ],
+      [
+        "./modules/stage/components/LoadingPanel.vue.ts",
+        0
+      ],
+      [
+        "./modules/stage/entity/index.ts",
+        0
+      ],
+      [
         "./modules/stage/index.ts",
         0
       ],
       [
         "./modules/stage/model.ts",
+        0
+      ],
+      [
+        "./modules/stage/utils/request.ts",
         0
       ],
       [

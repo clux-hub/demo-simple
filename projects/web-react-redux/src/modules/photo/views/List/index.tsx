@@ -7,7 +7,6 @@ import {ListItem, ListSearch, ListSummary} from '../../entity';
 import styles from './index.module.less';
 
 interface StoreProps {
-  listVer?: number;
   listSearch?: ListSearch;
   list?: ListItem[];
   listSummary?: ListSummary;

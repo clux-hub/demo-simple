@@ -1,24 +1,33 @@
 <template>
   <MainLayout v-if="!!subView.mainLayout" />
+  <LoadingPanel :loading-state="globalLoading" />
 </template>
 
 <script lang="ts">
-import {defineComponent} from 'vue';
-import {LoadView} from '@/APP';
+import {LoadingState, defineView} from '@clux/vue-web';
+import {LoadView, RouteParams} from '@/Global';
+import LoadingPanel from '../components/LoadingPanel.vue';
+import {CurUser} from '../entity';
+import '../assets/css/iconfont.css';
+import '../assets/css/global.module.less';
 
 const MainLayout = LoadView('mainLayout', 'main');
 
-export default defineComponent({
+export default defineView({
   name: 'App',
   components: {
+    LoadingPanel,
     MainLayout,
   },
-  data() {
-    return {};
-  },
   computed: {
-    subView() {
+    globalLoading(): LoadingState | undefined {
+      return this.$store.state.stage.loading?.global;
+    },
+    subView(): RouteParams {
       return this.$store.state.route.params;
+    },
+    curUser(): CurUser {
+      return this.$store.state.stage.curUser;
     },
   },
 });

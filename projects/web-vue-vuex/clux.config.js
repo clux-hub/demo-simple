@@ -1,31 +1,32 @@
-const apiProxy = {
-  '/api': {
-    target: 'http://192.168.0.232:8000',
-    pathRewrite: {
-      '^/api': '',
-    },
-    xfwd: true,
-    secure: false,
-    changeOrigin: true,
-    timeout: 3000,
-    proxyTimeout: 3000,
-  },
-};
-
 module.exports = {
   type: 'vue',
-  devServerPreset: {port: 4002},
-  webpackPreset: {cssProcessors: {less: true}},
+  devServerPreset: {
+    port: 4003,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3003/',
+        pathRewrite: {
+          '^/api': '',
+        },
+      },
+    },
+  },
+  mockServerPreset: {port: 3003},
+  webpackPreset: {
+    cssProcessors: {less: true},
+    resolveAlias: {'@stage': './src/modules/stage'},
+  },
   development: {
-    apiProxy,
     clientGlobalVar: {
-      apiMaps: {'/api': '/api'},
+      ApiPrefix: '',
+      StaticPrefix: 'http://localhost:3003/',
     },
   },
   production: {
     clientPublicPath: '/client/',
     clientGlobalVar: {
-      apiMaps: {'/api': 'http://192.168.0.232:8000'},
+      ApiPrefix: '',
+      StaticPrefix: '/client/',
     },
   },
 };

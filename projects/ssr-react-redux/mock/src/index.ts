@@ -10,7 +10,7 @@ const app = express();
 app.use(
   logger('dev', {
     skip(req, res) {
-      return res.getHeader('Content-Type').indexOf('application/json') < 0;
+      return (res.getHeader('Content-Type') || '').indexOf('application/json') < 0;
     },
   })
 );

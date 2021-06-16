@@ -1,18 +1,17 @@
 import {getApp, Facade, GetAPP, VuexStore} from '@clux/vue-web';
+import type {ModuleGetter} from './Project';
 
-import type {ModuleGetter} from './project';
-
-declare const ENV: any;
+declare const ENV: {StaticPrefix: string; ApiPrefix: string};
 
 type APP = GetAPP<Facade<ModuleGetter>>;
 
+export type RouteParams = APP['RouteParams'];
 export type APPState = APP['State'];
 export type RouteState = APP['State']['route'];
 
 export const {Modules, Pagenames, LoadView, GetActions, GetRouter} = getApp<APP>();
 
-export const staticServer: string = ENV.staticServer || '/client/';
-export const apiMaps: {[key: string]: string} = ENV.apiMaps || {};
+export const {StaticPrefix, ApiPrefix} = ENV;
 
 declare module '@vue/runtime-core' {
   // 为 `this.$store` 提供类型声明

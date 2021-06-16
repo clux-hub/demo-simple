@@ -1,16 +1,15 @@
 import {ActionTypes, BaseModuleHandlers, BaseModuleState, effect, reducer, errorAction} from '@clux/vue-web';
-import {APPState} from '@/APP';
 import {CurUser, guest, api} from './entity';
 
 export interface ModuleState extends BaseModuleState {
   curUser: CurUser;
 }
 
-export class ModuleHandlers extends BaseModuleHandlers<ModuleState, APPState> {
+export class ModuleHandlers extends BaseModuleHandlers<ModuleState, {}> {
   private privateActions = this.getPrivateActions({putCurUser: this.putCurUser});
 
-  constructor() {
-    super({curUser: guest});
+  constructor(moduleName: string) {
+    super(moduleName, {curUser: guest});
   }
 
   @reducer

@@ -1,10 +1,10 @@
 import React from 'react';
 import {connectRedux} from '@clux/react-web';
-import {RouteState, APPState} from '@/Global';
+import {RouteParams, APPState} from '@/Global';
 import styles from './index.module.less';
 
 interface StoreProps {
-  subView: RouteState['params'];
+  subView: RouteParams;
 }
 interface OwnerProps {}
 interface DispatchProps {}

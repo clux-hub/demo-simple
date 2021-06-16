@@ -1,16 +1,18 @@
 import React from 'react';
 import {Provider} from 'react-redux';
 import {connectRedux, LoadingState} from '@clux/react-web';
-import {LoadView, RouteState, APPState} from '@/Global';
+import {LoadView, RouteParams, APPState} from '@/Global';
 import LoadingPanel from '../components/LoadingPanel';
 import {CurUser} from '../entity';
+import '../assets/css/iconfont.css';
+import '../assets/css/global.module.less';
 
 const MainLayout = LoadView('mainLayout', 'main');
 
 interface StoreProps {
   globalLoading?: LoadingState;
   curUser: CurUser;
-  subView: RouteState['params'];
+  subView: RouteParams;
 }
 interface OwnerProps {}
 interface DispatchProps {}

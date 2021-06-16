@@ -1,19 +1,14 @@
 import {createRouteModule, DeepPartial} from '@clux/vue-web';
+import {RouteParams} from '@/Global';
 import * as StageModule from './modules/stage';
+import * as MainLayoutModule from './modules/mainLayout';
 
-const defaultRouteParams = {
-  route: {},
-  stage: {},
-  mainLayout: {},
-};
-
-type RouteParams = typeof defaultRouteParams;
 type PartialRouteParams = DeepPartial<RouteParams>;
 
 const pagenameMap = {
-  '/photo/list': {
+  '/': {
     argsToParams() {
-      const pathParams: PartialRouteParams = {stage: {}, mainLayout: {}};
+      const pathParams: PartialRouteParams = {stage: {}, mainLayout: {}, photo: {listView: 'list'}};
       return pathParams;
     },
     paramsToArgs() {
@@ -24,24 +19,18 @@ const pagenameMap = {
 
 // 定义模块的加载方案，同步或者异步均可
 export const moduleGetter = {
-  route: () =>
-    createRouteModule(defaultRouteParams, pagenameMap, {
-      in(nativeLocation) {
-        let pathname = nativeLocation.pathname;
-        if (pathname === '/') {
-          pathname = '/photo/list';
-        }
-        return {...nativeLocation, pathname};
-      },
-      out(nativeLocation) {
-        return nativeLocation;
-      },
-    }),
+  route: () => createRouteModule(pagenameMap),
   stage: () => {
     return StageModule;
   },
   mainLayout: () => {
-    return import('./modules/mainLayout');
+    return MainLayoutModule;
+  },
+  photo: () => {
+    return import('./modules/photo');
+  },
+  comment: () => {
+    return import('./modules/comment');
   },
 };
 

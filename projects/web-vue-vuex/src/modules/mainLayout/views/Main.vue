@@ -1,29 +1,29 @@
 <template>
-  <Navigation />
-  <div :class="$style.root">ffff</div>
+  <NavBar title="相册" />
+  <div :class="$style.root">
+    <photo v-if="subView.photo" />
+  </div>
   <TabBar />
 </template>
 
 <script lang="ts">
-import {defineComponent} from 'vue';
-// import {RouteState, APPState, LoadView} from '@/APP';
-import Navigation from './Navigation.vue';
+import {defineView} from '@clux/vue-web';
+import {RouteParams, LoadView} from '@/Global';
+import NavBar from '@stage/components/NavBar.vue';
 import TabBar from './TabBar.vue';
 
-// const Photo = LoadView('photo', 'main');
+const Photo = LoadView('photo', 'main');
 
-// export interface StoreProps {
-//   subView: RouteState['params'];
-// }
-
-function ccc(a: number) {
-  return a;
-}
-ccc(1);
-export default defineComponent({
+export default defineView({
   components: {
-    Navigation,
+    NavBar,
     TabBar,
+    Photo,
+  },
+  computed: {
+    subView(): RouteParams {
+      return this.$store.state.route.params;
+    },
   },
 });
 </script>
